@@ -30,7 +30,7 @@
 <div class="statBox">
     {#each statSlots as statSlot, i}
         <div id={statSlot}>
-            <img src="src/assets/stats/{statSlot}.png" alt={statNames[i]} />
+            <img src="public/stats/{statSlot}.png" alt={statNames[i]} />
             <span class="statValue">123</span>
         </div>
     {/each}
