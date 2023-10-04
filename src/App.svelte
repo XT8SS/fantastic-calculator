@@ -1,47 +1,75 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+    import { onMount } from "svelte";
+    import ArmorBox from "./lib/ArmorBox.svelte";
+    import StatBox from "./lib/StatBox.svelte";
+    import WpBox from "./lib/WpBox.svelte";
+
+    let winHeight,
+        winWidth,
+        ccScaledHeight,
+        ccScaledWidth,
+        scrOrient = "";
+    let calcCont;
+    function updateSizes() {
+        scrOrient = screen.orientation.type;
+        setTimeout(() => {
+            [ccScaledHeight, ccScaledWidth] = [
+                winHeight * 0.75,
+                winWidth * 0.75,
+            ];
+            scrOrient.includes("landscape")
+                ? (ccScaledWidth = null)
+                : (ccScaledHeight = null);
+        });
+    }
+    onMount(updateSizes);
 </script>
 
+<svelte:window
+    bind:outerHeight={winHeight}
+    bind:outerWidth={winWidth}
+    on:resize={updateSizes}
+/>
+
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+    <div
+        bind:this={calcCont}
+        class="calcBox"
+        class:portrait={scrOrient.includes("portrait")}
+        style={ccScaledHeight
+            ? `height: ${ccScaledHeight}px`
+            : `width: ${ccScaledWidth}px`}
+    >
+        <div class="eqCont">
+            <ArmorBox />
+            <StatBox />
+        </div>
+        <WpBox />
+    </div>
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
+    main {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .calcBox {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        aspect-ratio: 1.56;
+    }
+    .eqCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        height: 100%;
+        left: 0;
+        aspect-ratio: 83 / 96;
+    }
 </style>

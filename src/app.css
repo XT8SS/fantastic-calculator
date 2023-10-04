@@ -1,80 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+
+@font-face {
+    font-family: 'comic_neue_angularbold';
+    src: url('./assets/fonts/comicneue-angular-bold-webfont.woff2') format('woff2'),
+         url('./assets/fonts/comicneue-angular-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'highway_gothicregular';
+    src: url('./assets/fonts/hwygoth-webfont.woff2') format('woff2'),
+         url('./assets/fonts/hwygoth-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    --dark: #070E16;
+    --dark-hardly-transparent: #070E16C7;
+    --dark-semi-transparent: #070E1680;
+    --dark-almost-transparent: #070E1645;
+    --transparent: #00000000;
+    --ff-blue: #718e9a;
+    --ff-sand: #ccc598;
+    --ff-dull-sand: #9e9a63;
+    --ff-duller-sand: #848066;
+    --ff-violet: #9d80a2;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-a:hover {
-  color: #535bf2;
+
+html, body {
+    overflow: hidden;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    background-color: var(--dark);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-.card {
-  padding: 2em;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body::-webkit-scrollbar {
+    display: none;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+    all: unset;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button, span, img, ::before, ::after {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.dropdown {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.active .eqSlotDDButton::after {
+    transform: scaleY(-1);
+}
+
+.active .dropdown {
+    opacity: 1;
+    visibility: visible;
 }
