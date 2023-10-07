@@ -51,14 +51,57 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+main.unsupported > #warning {
+    position: absolute;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    font-family: "Source Sans 3";
+    font-size: 2rem;
+    text-align: center;
+    color: #ebebeb;
+    white-space: pre-wrap;
+    transform: translate(-50%, -50%);
+}
+
+main.unsupported > #warning::before {
+    content: "Sorry! Your browser does not support certain components used within this page :( \A This may cause missing elements and other faults to be present. \A Do you wish to ";
+}
+
+main.unsupported > #warning > button {
+    color: #2868b4;
+    text-decoration: underline;
+}
+
+main.unsupported > #warning::after {
+    content: "?";
+}
+
+main.unsupported .calcBox {
+    display: none !important;
+}
+
 button {
+    all: unset;
+    cursor: pointer;
+}
+
+input {
     all: unset;
 }
 
-button, span, img, ::before, ::after {
+button, span, img, li, ::before, ::after {
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+}
+
+input::placeholder {
+    color: #00000075;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00000075;
 }
 
 .dropdown {

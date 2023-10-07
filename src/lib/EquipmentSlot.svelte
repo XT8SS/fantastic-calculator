@@ -1,11 +1,11 @@
 <script>
-    import EqSlotDropdown from "./PieceDropdown.svelte";
-    export let eqSlotName;
-    let eqSlotCont, eqSlotIcon, active;
+    import EqSlotDropdown from "./EqSlotDropdown.svelte";
+    export let eqSlotName, baseHeight, baseWidth;
+    let eqSlotCont, eqSlotIcon, eqSlotIconHeight, active;
 </script>
 
 <svelte:window
-    on:click={(e) => {
+    on:mousedown={(e) => {
         if (!eqSlotCont.contains(e.target)) {
             active = false;
         } else if (e.target == eqSlotIcon) {
@@ -15,8 +15,17 @@
 />
 
 <div class="eqSlotCont" class:active id={eqSlotName} bind:this={eqSlotCont}>
-    <div class="eqSlotIcon" bind:this={eqSlotIcon} />
-    <button class="eqSlotDDButton" on:click={() => (active = !active)}>
+    <div
+        class="eqSlotIcon"
+        bind:this={eqSlotIcon}
+        bind:offsetHeight={eqSlotIconHeight}
+        style:min-width={`${eqSlotIconHeight}px`}
+    />
+    <button
+        class="eqSlotDDButton"
+        style:font-size={`${baseHeight ? baseHeight / 18 : baseWidth / 30}px`}
+        on:click={() => (active = !active)}
+    >
         {eqSlotName.charAt(0).toUpperCase() + eqSlotName.slice(1)}
     </button>
     <EqSlotDropdown />
@@ -37,7 +46,6 @@
         border-right: 0.95cqmin solid var(--transparent);
         border-bottom: 0.95cqmin solid var(--transparent);
         background-color: #00000020;
-        aspect-ratio: 1;
     }
     .eqSlotDDButton {
         display: flex;
@@ -46,9 +54,7 @@
         height: fit-content;
         width: 100%;
         font-family: "comic_neue_angularbold";
-        font-size: 7cqw;
         color: var(--dark-almost-transparent);
-        cursor: pointer;
         transition: color 0.1s ease;
     }
     .eqSlotDDButton::after {
@@ -60,11 +66,13 @@
         transition: border 0.1s ease, transform 0.3s;
     }
     .eqSlotDDButton:hover,
-    .eqSlotDDButton:focus {
+    .eqSlotDDButton:focus,
+    .active .eqSlotDDButton {
         color: var(--dark-semi-transparent);
     }
     .eqSlotDDButton:hover::after,
-    .eqSlotDDButton:focus::after {
+    .eqSlotDDButton:focus::after,
+    .active .eqSlotDDButton::after {
         border-top-color: var(--dark-semi-transparent);
     }
 </style>

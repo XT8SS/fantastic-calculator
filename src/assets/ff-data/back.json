@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Angel Wings",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/6f/Angel_Wings.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Angel_Wings"
+    },
+    {
+        "name": "Dark Angel Wings",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/46/Dark_Angel_Wings.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dark_Angel_Wings"
+    },
+    {
+        "name": "Dreamnet",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 44,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/6e/Dreamnet.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dreamnet"
+    },
+    {
+        "name": "Emperor's Cape",
+        "stats": {
+            "armor": -4,
+            "magicDmg": 0,
+            "meleeDmg": 45,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cf/EmperorCape.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Emperor's_Cape"
+    },
+    {
+        "name": "Eyes of the Sword",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 35,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/bc/Eyes_of_the_Sword_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Eyes_of_the_Sword"
+    },
+    {
+        "name": "Meeting Remnant",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 20,
+            "meleeDmg": 20,
+            "rangedDmg": 20,
+            "hpRegen": 2,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 1,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/15/MeetingRemnant-0.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Meeting_Remnant"
+    },
+    {
+        "name": "Ranger's Backpack",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 40,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/73/Ranger's_Backpack_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ranger's_Backpack"
+    }
+]

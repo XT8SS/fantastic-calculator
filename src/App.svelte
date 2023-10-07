@@ -4,25 +4,21 @@
     import StatBox from "./lib/StatBox.svelte";
     import WpBox from "./lib/WpBox.svelte";
 
-    let winHeight,
-        winWidth,
-        ccScaledHeight,
-        ccScaledWidth,
-        scrOrient = "";
-    let calcCont;
+    let winHeight, winWidth, baseHeight, baseWidth, landscape, supported;
+
     function updateSizes() {
-        scrOrient = screen.orientation.type;
         setTimeout(() => {
-            [ccScaledHeight, ccScaledWidth] = [
-                winHeight * 0.75,
-                winWidth * 0.75,
-            ];
-            scrOrient.includes("landscape")
-                ? (ccScaledWidth = null)
-                : (ccScaledHeight = null);
-        });
+            winWidth > winHeight ? (landscape = true) : (landscape = false);
+            [baseHeight, baseWidth] = [winHeight * 0.75, winWidth * 0.75];
+            landscape ? (baseWidth = null) : (baseHeight = null);
+        }, 100);
     }
     onMount(updateSizes);
+
+    supported =
+        window.CSS.supports("aspect-ratio", "1") &&
+        window.CSS.supports("font-size", "1cqw") &&
+        window.CSS.supports("border-width", "1cqmin");
 </script>
 
 <svelte:window
@@ -31,21 +27,25 @@
     on:resize={updateSizes}
 />
 
-<main>
+<main class:unsupported={!supported}>
     <div
-        bind:this={calcCont}
         class="calcBox"
-        class:portrait={scrOrient.includes("portrait")}
-        style={ccScaledHeight
-            ? `height: ${ccScaledHeight}px`
-            : `width: ${ccScaledWidth}px`}
+        class:portrait={!landscape}
+        style={baseHeight
+            ? `height: ${baseHeight}px; width: ${baseHeight * 1.56}px`
+            : `height: ${baseWidth / 1.56}px; width: ${baseWidth}px`}
     >
         <div class="eqCont">
-            <ArmorBox />
-            <StatBox />
+            <ArmorBox bind:baseHeight bind:baseWidth />
+            <StatBox bind:baseHeight bind:baseWidth />
         </div>
         <WpBox />
     </div>
+    {#if !supported}
+        <div id="warning">
+            <button on:click={() => (supported = !supported)}>continue</button>
+        </div>
+    {/if}
 </main>
 
 <style>
@@ -61,7 +61,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        aspect-ratio: 1.56;
     }
     .eqCont {
         display: flex;

@@ -1,0 +1,308 @@
+[
+    {
+        "name": "Ancient Dragon Horns",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 35,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8f/Ancient_Horns.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ancient_Dragon_Horns"
+    },
+    {
+        "name": "Antennae",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 20,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e4/Antennae.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Antennae"
+    },
+    {
+        "name": "Antlers",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 10,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/45/Antler.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Antlers"
+    },
+    {
+        "name": "Big Orange Eyes",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 55,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d7/Big_Orange_Eyes_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Big_Orange_Eyes"
+    },
+    {
+        "name": "Black Antlers",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 30,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/63/BlackAntlers.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Black_Antlers"
+    },
+    {
+        "name": "Brain Monocle",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 30,
+            "meleeDmg": 0,
+            "rangedDmg": 30,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c0/BrainMonocle.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Brain_Monocle"
+    },
+    {
+        "name": "Bunny Ears",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 20,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5c/BunnyEars.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bunny_Ears"
+    },
+    {
+        "name": "Enchanted Spectacles",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 5,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 20,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/50/EnchantedSpectacles.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Enchanted_Spectacles"
+    },
+    {
+        "name": "Front Bullet Pack",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 5,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 50
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/20/FrontBulletPack.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Front_Bullet_Pack"
+    },
+    {
+        "name": "Gold Antlers",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 40,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e7/GoldAntlers.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gold_Antlers"
+    },
+    {
+        "name": "Pirate Hook",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 40,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0b/PirateHook.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pirate_Hook"
+    },
+    {
+        "name": "Ranger Spectacles",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 5,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 20,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/71/RangerSpectacles.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ranger_Spectacles"
+    },
+    {
+        "name": "Shades",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 20,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3b/Shades.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Shades"
+    },
+    {
+        "name": "Spectacles",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 20,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3d/Spectacles.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectacles"
+    },
+    {
+        "name": "Spooky Grin",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 10,
+            "meleeDmg": 10,
+            "rangedDmg": 10,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/04/Spooky_Grin.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spooky_Grin"
+    },
+    {
+        "name": "Xenoculous",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 30,
+            "rangedDmg": 30,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/91/Xenoculous_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Xenoculous"
+    },
+    {
+        "name": "Yaaxil Crest",
+        "stats": {
+            "armor": -8,
+            "magicDmg": 15,
+            "meleeDmg": 50,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkspeed": 0,
+            "height": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/21/Yaaxil_Crest_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Yaaxil_Crest"
+    }
+]

@@ -1,37 +1,31 @@
 <script>
-    let statSlots = [
-        "armor",
-        "magicDmg",
-        "meleeDmg",
-        "rangedDmg",
-        "hpRegen",
-        "endurance",
-        "sightRange",
-        "walkSpeed",
-        "height",
-        "jumpPower",
-        "ammoReturn",
-    ];
-    let statNames = [
-        "Armor",
-        "Magic",
-        "Melee",
-        "Ranged",
-        "HP Regen",
-        "Endurance",
-        "Sight Range",
-        "Walk Speed",
-        "Height",
-        "Jump Power",
-        "Ammo Return",
-    ];
+    export let baseHeight, baseWidth;
+
+    let stats = {
+        armor: "Armor",
+        magicDmg: "Magic",
+        meleeDmg: "Melee",
+        rangedDmg: "Ranged",
+        hpRegen: "HP Regen",
+        endurance: "Endurance",
+        sightRange: "Sight Range",
+        walkSpeed: "Walk Speed",
+        height: "Height",
+        jumpPower: "Jump Power",
+        ammoReturn: "Ammo Return",
+    };
 </script>
 
 <div class="statBox">
-    {#each statSlots as statSlot, i}
-        <div id={statSlot}>
-            <img src="stats/{statSlot}.png" alt={statNames[i]} />
-            <span class="statValue">123</span>
+    {#each Object.entries(stats) as [codeName, formalName]}
+        <div id={codeName}>
+            <img src="stats/{codeName}.png" alt={formalName} />
+            <span
+                class="statValue"
+                style:font-size={`${
+                    baseHeight ? baseHeight / 25.2 : baseWidth / 39
+                }px`}>123</span
+            >
         </div>
     {/each}
 </div>
@@ -75,7 +69,6 @@
         display: flex;
         align-items: center;
         height: 100%;
-        font-size: 5cqw;
     }
     .statBox
         > div:not(#endurance, #ammoReturn)

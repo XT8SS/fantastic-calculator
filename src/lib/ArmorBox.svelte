@@ -1,6 +1,7 @@
 <script>
     import EquipmentSlot from "./EquipmentSlot.svelte";
 
+    export let baseHeight, baseWidth;
     let eqSlotNames = [
         "head",
         "body",
@@ -15,7 +16,7 @@
 
 <div class="armorBox">
     {#each eqSlotNames as eqSlotName}
-        <EquipmentSlot bind:eqSlotName />
+        <EquipmentSlot bind:eqSlotName bind:baseHeight bind:baseWidth />
     {/each}
 </div>
 
