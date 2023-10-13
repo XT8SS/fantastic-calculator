@@ -65,7 +65,7 @@ main.unsupported > #warning {
 }
 
 main.unsupported > #warning::before {
-    content: "Sorry! Your browser does not support certain components used within this page :( \A This may cause missing elements and other faults to be present. \A Do you wish to ";
+    content: "Sorry! Your browser does not support certain components used within this page :( \A This may cause missing elements, incorrect sizes, or the page to disappear completely! \A Do you wish to ";
 }
 
 main.unsupported > #warning > button {
@@ -102,6 +102,10 @@ input::placeholder {
 
 ::-webkit-scrollbar-thumb {
     background-color: #00000075;
+}
+
+.hidden {
+    display: none !important;
 }
 
 .dropdown {

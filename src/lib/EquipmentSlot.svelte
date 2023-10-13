@@ -14,7 +14,18 @@
     }}
 />
 
-<div class="eqSlotCont" class:active id={eqSlotName} bind:this={eqSlotCont}>
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<div
+    class="eqSlotCont"
+    class:active
+    id={eqSlotName}
+    bind:this={eqSlotCont}
+    on:keydown={(e) => {
+        if (e.key == "Escape") {
+            active = false;
+        }
+    }}
+>
     <div
         class="eqSlotIcon"
         bind:this={eqSlotIcon}
@@ -28,7 +39,7 @@
     >
         {eqSlotName.charAt(0).toUpperCase() + eqSlotName.slice(1)}
     </button>
-    <EqSlotDropdown />
+    <EqSlotDropdown bind:eqSlotName bind:active />
 </div>
 
 <style>
@@ -74,5 +85,13 @@
     .eqSlotDDButton:focus::after,
     .active .eqSlotDDButton::after {
         border-top-color: var(--dark-semi-transparent);
+    }
+    .active .eqSlotDDButton:hover,
+    .active .eqSlotDDButton:focus {
+        color: var(--dark-hardly-transparent);
+    }
+    .active .eqSlotDDButton:hover::after,
+    .active .eqSlotDDButton:focus::after {
+        border-top-color: var(--dark-hardly-transparent);
     }
 </style>

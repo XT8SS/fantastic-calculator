@@ -38,6 +38,7 @@
         width: 100%;
         padding: 5%;
         border-radius: 2.25% / 3%;
+        z-index: 1;
         container-type: size;
     }
 </style>

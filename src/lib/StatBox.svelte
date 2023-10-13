@@ -1,4 +1,6 @@
 <script>
+    import StatSlot from "./StatSlot.svelte";
+
     export let baseHeight, baseWidth;
 
     let stats = {
@@ -18,15 +20,12 @@
 
 <div class="statBox">
     {#each Object.entries(stats) as [codeName, formalName]}
-        <div id={codeName}>
-            <img src="stats/{codeName}.png" alt={formalName} />
-            <span
-                class="statValue"
-                style:font-size={`${
-                    baseHeight ? baseHeight / 25.2 : baseWidth / 39
-                }px`}>123</span
-            >
-        </div>
+        <StatSlot
+            bind:codeName
+            bind:formalName
+            bind:baseHeight
+            bind:baseWidth
+        />
     {/each}
 </div>
 
@@ -50,33 +49,6 @@
         border-radius: 1.5% / 4.5%;
         color: #dfdfdf;
         font-family: "Source Sans 3";
-        z-index: -1;
         container-type: size;
-    }
-    div {
-        display: flex;
-        align-items: center;
-        position: relative;
-        height: 25%;
-        width: calc(100% / 3);
-        white-space: nowrap;
-    }
-    img {
-        height: 90%;
-        margin-right: 5%;
-    }
-    .statValue {
-        display: flex;
-        align-items: center;
-        height: 100%;
-    }
-    .statBox
-        > div:not(#endurance, #ammoReturn)
-        .statValue:not(.negative)::before {
-        content: "+";
-    }
-    div#endurance .statValue::after,
-    div#ammoReturn .statValue::after {
-        content: "%";
     }
 </style>

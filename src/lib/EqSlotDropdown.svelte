@@ -1,19 +1,86 @@
+<script>
+    export let eqSlotName, active;
+
+    let searchBarInput, lastItem;
+
+    let dataFile = `https://raw.githubusercontent.com/XT8SS/fc-sv/main/src/assets/ff-data/${eqSlotName}.json`;
+
+    async function fetchFile() {
+        return await fetch(dataFile)
+            .then(async (response) => {
+                if (response.status != 200) {
+                    console.error(
+                        `Failed to fetch ${eqSlotName} slot data from ${dataFile}\nResponse status: ${response.status}`
+                    );
+                    return;
+                }
+                return await response.json();
+            })
+            .catch((e) => {
+                console.error(
+                    `Failed to initiate ${eqSlotName} slot data fetch from ${dataFile}\nError: ${e}`
+                );
+            });
+    }
+
+    function setLastItem(node) {
+        if (node.classList.contains("lastItem")) {
+            lastItem = node.querySelector("button");
+            trapFocusFromLast(node);
+        }
+    }
+
+    function trapFocusFromLast(lastNode) {
+        lastNode.addEventListener("keydown", (e) => {
+            if (!e.shiftKey && e.key == "Tab") {
+                setTimeout(() => {
+                    searchBarInput.focus();
+                });
+            }
+        });
+    }
+
+    function trapFocusFromStart(e) {
+        if (e.shiftKey && e.key == "Tab") {
+            setTimeout(() => {
+                lastItem.focus();
+            });
+        }
+    }
+
+    function filterItemList(e) {
+        console.log(e.target.value);
+    }
+
+    $: if (active) {
+        setTimeout(() => {
+            searchBarInput.focus();
+        }, 25);
+    }
+</script>
+
 <div class="dropdown">
     <div class="searchBarCont">
-        <input type="text" class="searchBarInput" placeholder="Search..." />
+        <input
+            bind:this={searchBarInput}
+            on:keydown={(e) => trapFocusFromStart(e)}
+            on:input={(e) => filterItemList(e)}
+            type="text"
+            class="searchBarInput"
+            placeholder="Search..."
+        />
     </div>
     <ul>
-        {#each Array(10) as lol}
-            <li>
-                <button>
-                    <img
-                        src="https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/ec/SpiderHat.png"
-                        alt=""
-                    />
-                    <span>Guardian Helmet</span>
-                </button>
-            </li>
-        {/each}
+        {#await fetchFile() then items}
+            {#each items as item, i}
+                <li class:lastItem={i == items.length - 1} use:setLastItem>
+                    <button>
+                        <img src={item.image} alt="" />
+                        <span>{item.name}</span>
+                    </button>
+                </li>
+            {/each}
+        {/await}
     </ul>
 </div>
 
@@ -38,7 +105,7 @@
         box-shadow: 0 1.5cqmin 2.75cqmin var(--dark-semi-transparent);
         font-family: "highway_gothicregular";
         transition: visibility 0.15s, opacity 0.15s ease;
-        z-index: 1;
+        z-index: 2;
         aspect-ratio: 1 / 1.25;
     }
     .searchBarCont {
@@ -49,7 +116,7 @@
         padding: 2% 2.5%;
         color: var(--dark);
         background-color: #00000050;
-        border: 1cqmin #00000075 solid;
+        border: 0.75cqmin #00000075 solid;
         border-radius: 1cqmin;
     }
     .searchBarInput {
@@ -95,9 +162,10 @@
     ul > li > button > img {
         height: 100%;
         padding: 2.5%;
-        margin-right: 1%;
+        margin-right: 2.5%;
     }
     ul > li > button > span {
+        padding-right: 5%;
         font-size: 3.5cqw;
     }
 </style>
