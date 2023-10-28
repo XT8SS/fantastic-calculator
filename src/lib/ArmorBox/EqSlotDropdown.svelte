@@ -35,6 +35,8 @@
         lastItem = visibleItems[visibleItems.length - 1];
         if (lastItem) {
             lastItem.classList.add("lastItem");
+        } else {
+            lastItem = searchBarInput;
         }
         if (visibleItems.length <= 4) {
             itemList.classList.add("no-scrollbar");
@@ -62,13 +64,13 @@
     function trapFocusFromStart(e) {
         if (e.shiftKey && e.key == "Tab") {
             setTimeout(() => {
-                lastItem.querySelector("button").focus();
+                (lastItem.querySelector("button") || lastItem).focus();
             });
         }
     }
 
-    function filterItemList(e) {
-        let search = e.target.value.toLowerCase();
+    function filterItemList() {
+        let search = searchBarInput.value.toLowerCase();
         for (let item in elementData) {
             let itemName = item.toLowerCase();
             if (itemName.includes(search)) {
@@ -80,16 +82,18 @@
         trapFocusFromLast();
     }
 
-    function deselectPreviousItem(e) {
+    function updateItemList(e) {
         let oldSelectedItem = itemList.querySelector(".itemSelected");
         if (oldSelectedItem && oldSelectedItem != e.detail) {
             oldSelectedItem.classList.remove("itemSelected");
         }
+        searchBarInput.value = "";
+        filterItemList();
     }
 
-    $: if (slotOpen) {
+    $: if (slotOpen && itemList) {
         setTimeout(() => {
-            searchBarInput.focus();
+            searchBarInput.select();
         }, 25);
     }
     $: if (itemList) {
@@ -115,8 +119,8 @@
         <div class="searchBarCont">
             <input
                 bind:this={searchBarInput}
-                on:keydown={(e) => trapFocusFromStart(e)}
-                on:input={(e) => filterItemList(e)}
+                on:keydown={trapFocusFromStart}
+                on:input={filterItemList}
                 type="text"
                 class="searchBarInput"
                 placeholder="Search..."
@@ -128,7 +132,7 @@
                     bind:itemData={item}
                     bind:slotOpen
                     bind:eqSlotName
-                    on:itemSelect={deselectPreviousItem}
+                    on:itemSelect={updateItemList}
                 />
             {/each}
         </ul>

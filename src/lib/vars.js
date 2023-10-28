@@ -1,4 +1,4 @@
-let stats = {
+export let stats = {
     armor: "Armor",
     magicDmg: "Magic",
     meleeDmg: "Melee",
@@ -10,9 +10,9 @@ let stats = {
     jumpPower: "Jump Power",
     ammoReturn: "Ammo Return",
     height: "Height",
-};
+},
 
-let eqSlotNames = [
+eqSlotNames = [
     "head",
     "body",
     "legs",
@@ -21,6 +21,23 @@ let eqSlotNames = [
     "back",
     "ring",
     "misc",
-];
+],
 
-export {stats, eqSlotNames};
+noneItemData = {
+    name: "",
+    stats: {
+        armor: 0,
+        magicDmg: 0,
+        meleeDmg: 0,
+        rangedDmg: 0,
+        hpRegen: 0,
+        endurance: 0,
+        sightRange: 0,
+        walkSpeed: 0,
+        jumpPower: 0,
+        ammoReturn: 0,
+        height: 0
+    },
+    image: "",
+    link: ""
+}

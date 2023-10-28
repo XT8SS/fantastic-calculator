@@ -1,12 +1,14 @@
 <script>
+    import { buildStats } from "../stores";
+
     export let codeName, formalName;
 
     let statContainerWidth;
-
     let hover;
-    let fontSizeMultipliers = {
+
+    let fontSizeDivisors = {
         armor: 5.725,
-        magicDmg: 5.51,
+        magicDmg: 5.63,
         meleeDmg: 5.545,
         rangedDmg: 6.254,
         hpRegen: 7.131,
@@ -17,9 +19,15 @@
         jumpPower: 8.456,
         ammoReturn: 9.017,
     };
+
+    $: statValue = $buildStats[codeName] || 0;
 </script>
 
-<div bind:offsetWidth={statContainerWidth} id={codeName}>
+<div
+    bind:offsetWidth={statContainerWidth}
+    class:hidden={statValue == 0}
+    id={codeName}
+>
     <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
     <img
         src="stats/{codeName}.svg"
@@ -30,12 +38,14 @@
         on:focusin={() => (hover = true)}
         on:focusout={() => (hover = false)}
     />
-    <span class="statValue" class:hidden={hover}> 123 </span>
+    <span class="statValue" class:hidden={hover} class:negative={statValue < 0}
+        >{codeName != "endurance" ? statValue : statValue.toFixed(2)}</span
+    >
     {#if hover}
         <span
             class="statName"
             style:font-size={`${
-                (statContainerWidth * 0.7) / fontSizeMultipliers[codeName]
+                (statContainerWidth * 0.7) / fontSizeDivisors[codeName]
             }px`}
         >
             {`${formalName} Bonus`}

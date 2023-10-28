@@ -1,7 +1,7 @@
 <script>
     import { createEventDispatcher } from "svelte";
-    import { selectedGearData, buildStats } from "../stores.js";
-    import { stats } from "../vars.js";
+    import { selectedGearData, buildStats } from "../stores";
+    import { stats, noneItemData } from "../vars";
 
     export let itemData, slotOpen, eqSlotName;
     const dispatch = createEventDispatcher();
@@ -10,21 +10,25 @@
     let itemSelected = false;
 
     function selectItem() {
-        dispatch("itemSelect", listItem);
-        if (!listItem.classList.contains("itemSelected")) {
-            itemSelected = false;
-        }
-        (itemSelected = !itemSelected), (slotOpen = false);
-        if (itemSelected) {
-            $selectedGearData[eqSlotName] = itemData.stats;
-        }
-        for (let stat of Object.keys(stats)) {
-            $buildStats[stat] = 0;
-            for (let slot in $selectedGearData) {
-                $buildStats[stat] += $selectedGearData[slot][stat];
+        if (slotOpen) {
+            dispatch("itemSelect", listItem);
+            if (!listItem.classList.contains("itemSelected")) {
+                itemSelected = false;
+            }
+            (itemSelected = !itemSelected), (slotOpen = false);
+            if (itemSelected) {
+                $selectedGearData[eqSlotName] = itemData;
+            } else {
+                $selectedGearData[eqSlotName] = noneItemData;
+            }
+            for (let stat of Object.keys(stats)) {
+                $buildStats[stat] = 0;
+                for (let slot in $selectedGearData) {
+                    $buildStats[stat] += $selectedGearData[slot].stats[stat];
+                    $buildStats[stat] = Math.round($buildStats[stat] * 10) / 10;
+                }
             }
         }
-        console.log($buildStats);
     }
 </script>
 
