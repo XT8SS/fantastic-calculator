@@ -1,22 +1,11 @@
 <script>
     import EquipmentSlot from "./EquipmentSlot.svelte";
-
-    export let baseHeight, baseWidth;
-    let eqSlotNames = [
-        "head",
-        "body",
-        "legs",
-        "feet",
-        "neck",
-        "back",
-        "ring",
-        "misc",
-    ];
+    import { eqSlotNames } from "../vars.js";
 </script>
 
 <div class="armorBox">
-    {#each eqSlotNames as eqSlotName}
-        <EquipmentSlot bind:eqSlotName bind:baseHeight bind:baseWidth />
+    {#each Array(...eqSlotNames) as eqSlotName}
+        <EquipmentSlot bind:eqSlotName />
     {/each}
 </div>
 
@@ -39,6 +28,5 @@
         padding: 5%;
         border-radius: 2.25% / 3%;
         z-index: 1;
-        container-type: size;
     }
 </style>

@@ -9,10 +9,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/83/Coral_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Coral_Ring"
@@ -27,10 +27,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/07/Hightower_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hightower_Ring"
@@ -45,10 +45,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a9/Mud_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mud_Ring"
@@ -63,10 +63,10 @@
             "hpRegen": 0,
             "endurance": 6,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e0/Ring_of_Power.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ring_of_Power"
@@ -81,10 +81,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9e/Ring_of_the_Five_Knights.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ring_of_the_Five_Knights"
@@ -99,10 +99,10 @@
             "hpRegen": -3.2,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/01/Scorched_Soul's_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Scorched_Soul's_Ring"
@@ -117,10 +117,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9f/Strange_Creature_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Strange_Creature_Ring"
@@ -135,10 +135,10 @@
             "hpRegen": 0,
             "endurance": 7,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1b/Tough_Green_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tough_Green_Ring"

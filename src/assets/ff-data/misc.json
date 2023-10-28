@@ -9,10 +9,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8f/Ancient_Horns.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ancient_Dragon_Horns"
@@ -27,10 +27,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 20,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e4/Antennae.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Antennae"
@@ -45,10 +45,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/45/Antler.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Antlers"
@@ -63,10 +63,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 55,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d7/Big_Orange_Eyes_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Big_Orange_Eyes"
@@ -81,10 +81,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/63/BlackAntlers.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Black_Antlers"
@@ -99,10 +99,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c0/BrainMonocle.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Brain_Monocle"
@@ -117,10 +117,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 20,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5c/BunnyEars.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bunny_Ears"
@@ -135,10 +135,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 20,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/50/EnchantedSpectacles.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Enchanted_Spectacles"
@@ -153,10 +153,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 50
+            "ammoReturn": 50,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/20/FrontBulletPack.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Front_Bullet_Pack"
@@ -171,10 +171,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e7/GoldAntlers.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gold_Antlers"
@@ -189,10 +189,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0b/PirateHook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pirate_Hook"
@@ -207,10 +207,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 20,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/71/RangerSpectacles.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ranger_Spectacles"
@@ -225,10 +225,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 20,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3b/Shades.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Shades"
@@ -243,10 +243,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 20,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3d/Spectacles.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectacles"
@@ -261,10 +261,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/04/Spooky_Grin.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spooky_Grin"
@@ -279,10 +279,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/91/Xenoculous_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Xenoculous"
@@ -297,10 +297,10 @@
             "hpRegen": 0,
             "endurance": 0,
             "sightRange": 0,
-            "walkspeed": 0,
-            "height": 0,
+            "walkSpeed": 0,
             "jumpPower": 0,
-            "ammoReturn": 0
+            "ammoReturn": 0,
+            "height": 0
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/21/Yaaxil_Crest_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Yaaxil_Crest"

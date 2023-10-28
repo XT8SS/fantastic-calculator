@@ -1,7 +1,7 @@
-<div class="wpBox" />
+<div class="weaponBox" />
 
 <style>
-    .wpBox {
+    .weaponBox {
         background: repeating-linear-gradient(
             -35deg,
             #00000008,

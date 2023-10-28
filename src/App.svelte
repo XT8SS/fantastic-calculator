@@ -1,24 +1,16 @@
 <script>
     import { onMount } from "svelte";
-    import ArmorBox from "./lib/ArmorBox.svelte";
-    import StatBox from "./lib/StatBox.svelte";
-    import WpBox from "./lib/WpBox.svelte";
+    import ArmorBox from "./lib/ArmorBox/ArmorBox.svelte";
+    import StatBox from "./lib/StatBox/StatBox.svelte";
+    import WeaponBox from "./lib/WeaponBox.svelte";
 
-    let winHeight, winWidth, baseHeight, baseWidth, landscape, supported;
+    let mainHeight;
+    let winHeight, winWidth, landscape;
 
     function updateSizes() {
-        setTimeout(() => {
-            winWidth > winHeight ? (landscape = true) : (landscape = false);
-            [baseHeight, baseWidth] = [winHeight * 0.75, winWidth * 0.75];
-            landscape ? (baseWidth = null) : (baseHeight = null);
-        }, 100);
+        setTimeout(() => (landscape = winWidth > winHeight), 10);
     }
     onMount(updateSizes);
-
-    supported =
-        window.CSS.supports("aspect-ratio", "1") &&
-        window.CSS.supports("font-size", "1cqw") &&
-        window.CSS.supports("border-width", "1cqmin");
 </script>
 
 <svelte:window
@@ -27,40 +19,41 @@
     on:resize={updateSizes}
 />
 
-<main class:unsupported={!supported}>
-    <div
-        class="calcBox"
-        class:portrait={!landscape}
-        style={baseHeight
-            ? `height: ${baseHeight}px; width: ${baseHeight * 1.56}px`
-            : `height: ${baseWidth / 1.56}px; width: ${baseWidth}px`}
-    >
+<main
+    bind:offsetHeight={mainHeight}
+    class:portrait={!landscape}
+    style:width={landscape ? `${mainHeight * 1.56}px` : "75%"}
+>
+    <div class="calcBox">
         <div class="eqCont">
-            <ArmorBox bind:baseHeight bind:baseWidth />
-            <StatBox bind:baseHeight bind:baseWidth />
+            <ArmorBox />
+            <StatBox />
         </div>
-        <WpBox />
+        <WeaponBox />
     </div>
-    {#if !supported}
-        <div id="warning">
-            <button on:click={() => (supported = !supported)}>continue</button>
-        </div>
-    {/if}
 </main>
 
 <style>
     main {
         position: absolute;
-        height: 100%;
-        width: 100%;
+        height: 75%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    main.portrait {
+        height: 87.5%;
+        width: 75%;
     }
     .calcBox {
         display: flex;
         justify-content: space-between;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 100%;
+    }
+    .portrait .calcBox {
+        flex-direction: column;
     }
     .eqCont {
         display: flex;
@@ -68,7 +61,11 @@
         justify-content: space-between;
         position: relative;
         height: 100%;
+        width: 55.421%;
         left: 0;
-        aspect-ratio: 83 / 96;
+    }
+    .portrait .eqCont {
+        height: 45.757%;
+        width: 100%;
     }
 </style>

@@ -1,15 +1,16 @@
 <script>
     import EqSlotDropdown from "./EqSlotDropdown.svelte";
-    export let eqSlotName, baseHeight, baseWidth;
-    let eqSlotCont, eqSlotIcon, eqSlotIconHeight, active;
+    export let eqSlotName;
+    let eqSlotCont, eqSlotIcon, eqSlotIconHeight, slotOpen;
 </script>
 
 <svelte:window
     on:mousedown={(e) => {
-        if (!eqSlotCont.contains(e.target)) {
-            active = false;
-        } else if (e.target == eqSlotIcon) {
-            active = false;
+        if (
+            !eqSlotCont.contains(e.target) ||
+            (eqSlotCont.contains(e.target) && e.target == eqSlotIcon)
+        ) {
+            slotOpen = false;
         }
     }}
 />
@@ -17,12 +18,12 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
     class="eqSlotCont"
-    class:active
+    class:slotOpen
     id={eqSlotName}
     bind:this={eqSlotCont}
     on:keydown={(e) => {
         if (e.key == "Escape") {
-            active = false;
+            slotOpen = false;
         }
     }}
 >
@@ -32,14 +33,10 @@
         bind:offsetHeight={eqSlotIconHeight}
         style:min-width={`${eqSlotIconHeight}px`}
     />
-    <button
-        class="eqSlotDDButton"
-        style:font-size={`${baseHeight ? baseHeight / 18 : baseWidth / 30}px`}
-        on:click={() => (active = !active)}
-    >
+    <button class="eqSlotDDButton" on:click={() => (slotOpen = !slotOpen)}>
         {eqSlotName.charAt(0).toUpperCase() + eqSlotName.slice(1)}
     </button>
-    <EqSlotDropdown bind:eqSlotName bind:active />
+    <EqSlotDropdown bind:eqSlotName bind:slotOpen />
 </div>
 
 <style>
@@ -50,12 +47,13 @@
     }
     .eqSlotIcon {
         height: 100%;
+        margin-right: 3%;
         padding: 0.75% 0.5% 0.5% 0.75%;
         border-radius: 7.5%;
-        border-top: 0.95cqmin solid #00000035;
-        border-left: 0.95cqmin solid #00000035;
-        border-right: 0.95cqmin solid var(--transparent);
-        border-bottom: 0.95cqmin solid var(--transparent);
+        border-top: calc(var(--zlhm) * 0.45) solid #00000035;
+        border-left: calc(var(--zlhm) * 0.45) solid #00000035;
+        border-right: calc(var(--zlhm) * 0.45) solid var(--transparent);
+        border-bottom: calc(var(--zlhm) * 0.45) solid var(--transparent);
         background-color: #00000020;
     }
     .eqSlotDDButton {
@@ -63,35 +61,37 @@
         flex-direction: column;
         align-items: center;
         height: fit-content;
-        width: 100%;
+        width: fit-content;
         font-family: "comic_neue_angularbold";
+        font-size: calc(var(--zlhm) * 4.25);
         color: var(--dark-almost-transparent);
         transition: color 0.1s ease;
     }
     .eqSlotDDButton::after {
         content: "";
         margin-top: 5%;
-        border-left: 2.5cqmin solid transparent;
-        border-right: 2.5cqmin solid transparent;
-        border-top: 3.125cqmin solid var(--dark-almost-transparent);
+        border-left: calc(var(--zlhm) * 1.15) solid transparent;
+        border-right: calc(var(--zlhm) * 1.15) solid transparent;
+        border-top: calc(var(--zlhm) * 1.25) solid
+            var(--dark-almost-transparent);
         transition: border 0.1s ease, transform 0.3s;
     }
     .eqSlotDDButton:hover,
     .eqSlotDDButton:focus,
-    .active .eqSlotDDButton {
+    .slotOpen .eqSlotDDButton {
         color: var(--dark-semi-transparent);
     }
     .eqSlotDDButton:hover::after,
     .eqSlotDDButton:focus::after,
-    .active .eqSlotDDButton::after {
+    .slotOpen .eqSlotDDButton::after {
         border-top-color: var(--dark-semi-transparent);
     }
-    .active .eqSlotDDButton:hover,
-    .active .eqSlotDDButton:focus {
+    .slotOpen .eqSlotDDButton:hover,
+    .slotOpen .eqSlotDDButton:focus {
         color: var(--dark-hardly-transparent);
     }
-    .active .eqSlotDDButton:hover::after,
-    .active .eqSlotDDButton:focus::after {
+    .slotOpen .eqSlotDDButton:hover::after,
+    .slotOpen .eqSlotDDButton:focus::after {
         border-top-color: var(--dark-hardly-transparent);
     }
 </style>

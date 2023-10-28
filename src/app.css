@@ -17,6 +17,8 @@
 }
 
 :root {
+    --zlhm: 1vh;
+    --zlwm: 1vw;
     --dark: #070E16;
     --dark-hardly-transparent: #070E16C7;
     --dark-semi-transparent: #070E1680;
@@ -51,36 +53,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-main.unsupported > #warning {
-    position: absolute;
-    width: 85%;
-    top: 50%;
-    left: 50%;
-    font-family: "Source Sans 3";
-    font-size: 2rem;
-    text-align: center;
-    color: #ebebeb;
-    white-space: pre-wrap;
-    transform: translate(-50%, -50%);
-}
-
-main.unsupported > #warning::before {
-    content: "Sorry! Your browser does not support certain components used within this page :( \A This may cause missing elements, incorrect sizes, or the page to disappear completely! \A Do you wish to ";
-}
-
-main.unsupported > #warning > button {
-    color: #2868b4;
-    text-decoration: underline;
-}
-
-main.unsupported > #warning::after {
-    content: "?";
-}
-
-main.unsupported .calcBox {
-    display: none !important;
-}
-
 button {
     all: unset;
     cursor: pointer;
@@ -104,6 +76,11 @@ input::placeholder {
     background-color: #00000075;
 }
 
+.portrait .weaponBox {
+    height: 45% !important;
+    width: 100% !important;
+}
+
 .hidden {
     display: none !important;
 }
@@ -113,11 +90,19 @@ input::placeholder {
     visibility: hidden;
 }
 
-.active .eqSlotDDButton::after {
+.slotOpen .eqSlotDDButton::after {
     transform: scaleY(-1);
 }
 
-.active .dropdown {
+.slotOpen .dropdown {
     opacity: 1;
     visibility: visible;
+}
+
+.dropdown ul.no-scrollbar li {
+    width: 100% !important;
+}
+
+li.lastItem {
+    margin-bottom: 0 !important;
 }
