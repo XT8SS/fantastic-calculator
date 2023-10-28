@@ -44,6 +44,7 @@
                 transition:fade={{ duration: 150 }}
                 href={selectedSlotData.link}
                 target="_blank"
+                style={selectedSlotData.link ? "" : "display: none;"}
             >
                 <img
                     src={selectedSlotData.image}
@@ -67,7 +68,7 @@
     }
     .eqSlotIcon {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
         height: 100%;
         margin-right: 3%;
