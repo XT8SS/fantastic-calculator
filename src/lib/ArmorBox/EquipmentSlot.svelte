@@ -7,8 +7,14 @@
     export let eqSlotName;
 
     let eqSlotCont, eqSlotIcon, eqSlotIconHeight, slotOpen;
+    let selectedSlotData = noneItemData;
 
-    $: selectedSlotData = $selectedGearData[eqSlotName] || noneItemData;
+    $: if (
+        $selectedGearData[eqSlotName] &&
+        $selectedGearData[eqSlotName].name != selectedSlotData.name
+    ) {
+        selectedSlotData = $selectedGearData[eqSlotName];
+    }
 </script>
 
 <svelte:window
@@ -100,7 +106,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: fit-content;
+        height: 100%;
         width: fit-content;
         font-family: "comic_neue_angularbold";
         font-size: calc(var(--zlhm) * 4.25);
@@ -109,10 +115,10 @@
     }
     .eqSlotDDButton::after {
         content: "";
-        margin-top: 5%;
-        border-left: calc(var(--zlhm) * 1.15) solid transparent;
-        border-right: calc(var(--zlhm) * 1.15) solid transparent;
-        border-top: calc(var(--zlhm) * 1.25) solid
+        margin-top: 15%;
+        border-left: calc(var(--zlhm) * 1.45) solid transparent;
+        border-right: calc(var(--zlhm) * 1.45) solid transparent;
+        border-top: calc(var(--zlhm) * 1.55) solid
             var(--dark-almost-transparent);
         transition: border 0.1s ease, transform 0.3s;
     }

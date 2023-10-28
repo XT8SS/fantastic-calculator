@@ -153,7 +153,7 @@
         justify-content: center;
         position: absolute;
         width: 45%;
-        margin-top: 10%;
+        margin-top: 12.5%;
         padding: 1%;
         border: calc(var(--zlhm) * 0.5) solid #00000075;
         border-radius: 1.25%;
