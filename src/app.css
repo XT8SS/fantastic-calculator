@@ -85,6 +85,10 @@ input::placeholder {
     display: none !important;
 }
 
+.visible {
+    display: block !important;
+}
+
 .dropdown {
     opacity: 0;
     visibility: hidden;

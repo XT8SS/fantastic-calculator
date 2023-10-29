@@ -9,6 +9,8 @@
     let data,
         elementData = {};
 
+    let pendingSearchClear = false;
+
     const fetchFile = fetch(dataFile)
         .then(async (response) => {
             if (response.status != 200) {
@@ -87,8 +89,7 @@
         if (oldSelectedItem && oldSelectedItem != e.detail) {
             oldSelectedItem.classList.remove("itemSelected");
         }
-        searchBarInput.value = "";
-        filterItemList();
+        pendingSearchClear = true;
     }
 
     $: if (slotOpen && itemList) {
@@ -112,6 +113,18 @@
     bind:offsetWidth={dropdownWidth}
     style:height={`${dropdownWidth * 1.25}px`}
     class="dropdown"
+    on:transitionend={(e) => {
+        if (e.propertyName == "visibility" && pendingSearchClear) {
+            pendingSearchClear = false;
+            searchBarInput.value = "";
+            filterItemList();
+        }
+    }}
+    on:transitioncancel={(e) => {
+        if (e.propertyName == "visibility") {
+            pendingSearchClear = false;
+        }
+    }}
 >
     {#await fetchFile}
         <span>Loading...</span>

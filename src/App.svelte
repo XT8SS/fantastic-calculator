@@ -17,6 +17,9 @@
     bind:outerHeight={winHeight}
     bind:outerWidth={winWidth}
     on:resize={updateSizes}
+    on:popstate={(e) => {
+        console.log(e.state);
+    }}
 />
 
 <main

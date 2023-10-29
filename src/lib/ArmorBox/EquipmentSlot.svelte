@@ -6,7 +6,8 @@
 
     export let eqSlotName;
 
-    let eqSlotCont, eqSlotIcon, eqSlotIconHeight, slotOpen;
+    let eqSlotCont, eqSlotIcon, eqSlotIconHeight;
+    let slotOpen;
     let selectedSlotData = noneItemData;
 
     $: if (
@@ -73,9 +74,6 @@
         width: calc(100% / 3);
     }
     .eqSlotIcon {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
         height: 100%;
         margin-right: 3%;
         padding: 0.75% 0.5% 0.5% 0.75%;
@@ -87,10 +85,12 @@
         background-color: #00000020;
     }
     .eqSlotIcon > a {
-        display: block;
+        display: block !important;
         position: absolute;
         height: 95%;
         width: 95%;
+        right: 1.25%;
+        bottom: 1.25%;
         border-radius: 5.5%;
         transition: background 0.15s;
     }
