@@ -85,7 +85,7 @@
         background-color: #00000020;
     }
     .eqSlotIcon > a {
-        display: block !important;
+        display: block;
         position: absolute;
         height: 95%;
         width: 95%;
