@@ -3,21 +3,22 @@
 
     export let codeName, formalName;
 
+    let armorStatValue;
     let statContainerWidth;
-    let hover;
+    let hover, armorHover;
 
     let fontSizeDivisors = {
-        armor: 5.725,
-        magicDmg: 5.63,
-        meleeDmg: 5.545,
-        rangedDmg: 6.254,
-        hpRegen: 7.131,
-        endurance: 7.631,
-        sightRange: 8.201,
-        walkSpeed: 8.043,
-        height: 5.9,
-        jumpPower: 8.456,
-        ammoReturn: 9.017,
+        armor: 5.9,
+        magicDmg: 5.65,
+        meleeDmg: 5.7,
+        rangedDmg: 6.45,
+        hpRegen: 7.35,
+        endurance: 7.85,
+        sightRange: 8.45,
+        walkSpeed: 8.3,
+        jumpPower: 8.7,
+        ammoReturn: 9.3,
+        height: 6.1,
     };
 
     $: statValue = $buildStats[codeName] || 0;
@@ -28,22 +29,47 @@
     class:hidden={statValue == 0}
     id={codeName}
 >
-    <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
     <img
         src="stats/{codeName}.svg"
         alt={formalName}
-        tabindex="0"
         on:mouseenter={() => (hover = true)}
         on:mouseleave={() => (hover = false)}
-        on:focusin={() => (hover = true)}
-        on:focusout={() => (hover = false)}
     />
-    <span class="statValue" class:hidden={hover} class:negative={statValue < 0}
-        >{codeName != "endurance" ? statValue : statValue.toFixed(2)}</span
-    >
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    {#if codeName != "armor"}
+        <span
+            class="statValue"
+            class:hidden={hover}
+            class:negative={statValue < 0}
+        >
+            {codeName != "endurance" ? statValue : statValue.toFixed(2)}
+        </span>
+    {:else}
+        <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+        <span
+            class="statValue"
+            tabindex="0"
+            class:hidden={hover}
+            class:negative={statValue < 0}
+            class:reduction={armorHover}
+            style={armorHover
+                ? `font-size: ${(statContainerWidth * 0.7) / 6.85}px;`
+                : ""}
+            bind:this={armorStatValue}
+            on:mouseenter={() => (armorHover = true)}
+            on:mouseleave={() => (armorHover = false)}
+            on:focusin={() => (armorHover = true)}
+            on:focusout={() => (armorHover = false)}
+        >
+            {armorHover
+                ? `${Math.floor(
+                      $buildStats[codeName] * 0.675 + 19.8
+                  )}% Reduction`
+                : statValue}
+        </span>
+    {/if}
     {#if hover}
         <span
-            class="statName"
             style:font-size={`${
                 (statContainerWidth * 0.7) / fontSizeDivisors[codeName]
             }px`}
@@ -78,9 +104,12 @@
         height: 100%;
         font-size: calc(var(--zlhm) * 2.85);
     }
+    .statValue:focus {
+        outline: none;
+    }
     .statBox
         > div:not(#endurance, #ammoReturn)
-        .statValue:not(.negative)::before {
+        .statValue:not(.negative, .reduction)::before {
         content: "+";
     }
     div#endurance .statValue::after,

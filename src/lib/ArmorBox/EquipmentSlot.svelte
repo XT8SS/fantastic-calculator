@@ -3,11 +3,17 @@
     import { fade } from "svelte/transition";
     import { selectedGearData } from "../stores";
     import { noneItemData } from "../vars";
+    import { onMount } from "svelte";
 
     export let eqSlotName;
 
     let eqSlotCont, eqSlotIcon, eqSlotIconHeight, slotOpen;
     let selectedSlotData = noneItemData;
+    let mounted = false;
+
+    onMount(() => {
+        mounted = !mounted;
+    });
 
     $: if (
         $selectedGearData[eqSlotName] &&
@@ -45,7 +51,7 @@
         bind:offsetHeight={eqSlotIconHeight}
         style:min-width={`${eqSlotIconHeight}px`}
     >
-        {#key selectedSlotData}
+        {#key [selectedSlotData, mounted]}
             <a
                 transition:fade={{ duration: 150 }}
                 href={selectedSlotData.link}

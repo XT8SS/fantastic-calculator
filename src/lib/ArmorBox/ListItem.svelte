@@ -62,7 +62,7 @@
     }
     li.itemSelected > button:hover,
     li.itemSelected > button:focus {
-        background-color: #00000065;
+        background-color: #00000075;
     }
     li > button > img {
         height: 100%;
