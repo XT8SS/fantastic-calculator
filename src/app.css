@@ -101,9 +101,10 @@ input::placeholder {
     background-color: var(--dark);
     color: var(--light);
     font-family: 'highway_gothicregular';
-    font-size: 1.35vh;
+    font-size: calc(var(--zlhm) * 1.5);
     text-align: center;
     white-space: nowrap;
+    pointer-events: none;
     transform: translate(-50%);
     transition: visibility 0.15s, opacity 0.15s;
 }
