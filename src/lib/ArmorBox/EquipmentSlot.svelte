@@ -28,15 +28,17 @@
             e.target == eqSlotIcon
         ) {
             slotOpen = false;
-            if (e.target != eqSlotCont) {
+            if (e.target != eqSlotCont && e.target != eqSlotIcon) {
                 clearAllowed = false;
             }
         }
     }}
-    on:keydown={() => {
-        setTimeout(() => {
-            clearAllowed = eqSlotCont.contains(document.activeElement);
-        });
+    on:keydown={(e) => {
+        if (e.key == "Tab") {
+            setTimeout(() => {
+                clearAllowed = eqSlotCont.contains(document.activeElement);
+            });
+        }
     }}
 />
 
@@ -54,7 +56,11 @@
         }
     }}
     on:mouseenter={() => (clearAllowed = true)}
-    on:mouseleave={() => (clearAllowed = false)}
+    on:mouseleave={() => {
+        if (!eqSlotCont.contains(document.activeElement)) {
+            clearAllowed = false;
+        }
+    }}
 >
     <div
         class="eqSlotIcon"
