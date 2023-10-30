@@ -1,7 +1,9 @@
 <script>
     import ListItem from "./ListItem.svelte";
+    import { createEventDispatcher } from "svelte";
 
-    export let eqSlotName, slotOpen;
+    export let eqSlotName, slotOpen, clearAllowed;
+    const dispatch = createEventDispatcher();
 
     let dropdownWidth, searchBarInput, itemList, lastItem;
 
@@ -85,9 +87,10 @@
     }
 
     function updateItemList(e) {
-        let oldSelectedItem = itemList.querySelector(".itemSelected");
+        dispatch("itemSelect", e.detail);
+        let oldSelectedItem = itemList.querySelector(".selectedItem");
         if (oldSelectedItem && oldSelectedItem != e.detail) {
-            oldSelectedItem.classList.remove("itemSelected");
+            oldSelectedItem.classList.remove("selectedItem");
         }
         pendingSearchClear = true;
     }
@@ -109,10 +112,13 @@
     }
 </script>
 
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
     bind:offsetWidth={dropdownWidth}
     style:height={`${dropdownWidth * 1.25}px`}
     class="dropdown"
+    on:mouseenter={() => (clearAllowed = false)}
+    on:mouseleave={() => (clearAllowed = true)}
     on:transitionend={(e) => {
         if (e.propertyName == "visibility" && pendingSearchClear) {
             pendingSearchClear = false;

@@ -9,10 +9,10 @@
     let listItem;
     let itemSelected = false;
 
-    function selectItem() {
-        if (slotOpen) {
+    function selectItem(e) {
+        if (slotOpen || (!slotOpen && e.isTrusted == false)) {
             dispatch("itemSelect", listItem);
-            if (!listItem.classList.contains("itemSelected")) {
+            if (!listItem.classList.contains("selectedItem")) {
                 itemSelected = false;
             }
             (itemSelected = !itemSelected), (slotOpen = false);
@@ -32,7 +32,7 @@
     }
 </script>
 
-<li bind:this={listItem} class:itemSelected>
+<li bind:this={listItem} class:selectedItem={itemSelected}>
     <button on:click={selectItem}>
         <img src={itemData.image} alt="" />
         <span>{itemData.name}</span>
@@ -45,7 +45,7 @@
         width: 97.5%;
         margin-bottom: 2.5%;
     }
-    li.itemSelected > button {
+    li.selectedItem > button {
         background-color: #00000050;
     }
     li > button {
@@ -60,8 +60,8 @@
     li > button:focus {
         background-color: #00000035;
     }
-    li.itemSelected > button:hover,
-    li.itemSelected > button:focus {
+    li.selectedItem > button:hover,
+    li.selectedItem > button:focus {
         background-color: #00000075;
     }
     li > button > img {

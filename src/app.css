@@ -24,6 +24,7 @@
     --dark-semi-transparent: #070E1680;
     --dark-almost-transparent: #070E1645;
     --transparent: #00000000;
+    --light: #ebebeb;
     --ff-blue: #718e9a;
     --ff-sand: #ccc598;
     --ff-dull-sand: #9e9a63;
@@ -87,6 +88,39 @@ input::placeholder {
 
 .visible {
     display: block !important;
+}
+
+.tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: 120%;
+    padding: 10%;
+    border-radius: 4.7% / 15%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: 'highway_gothicregular';
+    font-size: 1.35vh;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate(-50%);
+    transition: visibility 0.15s, opacity 0.15s;
+}
+
+*:hover > .tooltip, *:focus > .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 5%;
+    background-color: var(--dark);
+    transform: translate(-50%) rotate(45deg);
 }
 
 .dropdown {
