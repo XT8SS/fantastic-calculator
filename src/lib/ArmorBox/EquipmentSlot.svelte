@@ -33,13 +33,9 @@
             }
         }
     }}
-    on:keydown={(e) => {
+    on:keydown={() => {
         setTimeout(() => {
-            if (e.key == "Tab" && eqSlotCont.contains(document.activeElement)) {
-                clearAllowed = true;
-            } else if (e.key != "Shift") {
-                clearAllowed = false;
-            }
+            clearAllowed = eqSlotCont.contains(document.activeElement);
         });
     }}
 />
