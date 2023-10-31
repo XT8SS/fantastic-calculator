@@ -92,10 +92,7 @@ input::placeholder {
 
 .tooltip {
     position: absolute;
-    left: 50%;
-    bottom: 127.5%;
     padding: 10%;
-    border-radius: 4.7% / 15%;
     opacity: 0;
     visibility: hidden;
     background-color: var(--dark);
@@ -103,10 +100,25 @@ input::placeholder {
     font-family: 'highway_gothicregular';
     font-size: calc(var(--zlhm) * 1.75);
     text-align: center;
-    white-space: nowrap;
     pointer-events: none;
-    transform: translate(-50%);
     transition: visibility 0.15s, opacity 0.15s;
+}
+
+.eqSlotIcon .tooltip {
+    font-size: calc(var(--zlhm) * 1.55);
+}
+
+.tooltip#top {
+    left: 50%;
+    bottom: 127.5%;
+    white-space: nowrap;
+    transform: translate(-50%);
+}
+
+.tooltip#left {
+    top: 50%;
+    right: 120%;
+    transform: translate(0, -50%);
 }
 
 *:hover > .tooltip, *:focus > .tooltip {
@@ -117,11 +129,21 @@ input::placeholder {
 .tooltip::after {
     content: "";
     position: absolute;
-    top: 80%;
-    left: 50%;
-    padding: 5%;
+    padding: calc(var(--zlhm) * 0.6);
     background-color: var(--dark);
+    z-index: -1;
+}
+
+.tooltip#top::after {
+    left: 50%;
+    bottom: -7.5%;
     transform: translate(-50%) rotate(45deg);
+}
+
+.tooltip#left::after {
+    top: 50%;
+    right: -5%;
+    transform: translate(0, -50%) rotate(45deg);
 }
 
 .dropdown {

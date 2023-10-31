@@ -4,6 +4,7 @@
     import { fade } from "svelte/transition";
     import { selectedGearData } from "../stores";
     import { noneItemData } from "../vars";
+    import Tooltip from "../Tooltip.svelte";
 
     export let eqSlotName;
 
@@ -85,6 +86,7 @@
                     alt={selectedSlotData.name}
                     draggable="false"
                 />
+                <Tooltip text={selectedSlotData.name} position="left" />
             </a>
         {/key}
     </div>
@@ -106,7 +108,7 @@
         }}
     >
         <iconify-icon icon="maki:cross" />
-        <span class="tooltip">Clear selection</span>
+        <Tooltip text="Clear selection" position="top" />
     </button>
     <EqSlotDropdown
         bind:eqSlotName

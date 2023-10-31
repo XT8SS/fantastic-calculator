@@ -8,6 +8,22 @@
 
     let listItem;
     let itemSelected = false;
+    let itemName = itemData.name;
+    let fontSizeChange;
+
+    if (itemName == "Woodwhack Legionnaire Helmet") {
+        fontSizeChange = 2.13;
+    } else if (itemName == "Woodwhack Legionnaire Chestpiece") {
+        fontSizeChange = 1.77;
+    } else if (itemName == "Broken Thumb Drillbit Emporium Chassis") {
+        fontSizeChange = 1.89;
+    } else if (itemName.includes("Spectral Vanguard Platebody")) {
+        fontSizeChange = 2.04;
+    } else if (itemName == "Pettyganger's Parade Legwarmers") {
+        fontSizeChange = 2.06;
+    } else if (itemName.includes("Spectral Vanguard Platelegs")) {
+        fontSizeChange = 2.14;
+    }
 
     function selectItem(e) {
         if (slotOpen || (!slotOpen && e.isTrusted == false)) {
@@ -35,7 +51,11 @@
 <li bind:this={listItem} class:selectedItem={itemSelected}>
     <button on:click={selectItem}>
         <img src={itemData.image} alt="" />
-        <span>{itemData.name}</span>
+        <span
+            style:font-size={`${
+                fontSizeChange ? `calc(var(--zlhm) * ${fontSizeChange})` : ""
+            }`}>{itemName}</span
+        >
     </button>
 </li>
 
@@ -71,6 +91,6 @@
     }
     li > button > span {
         padding-right: 5%;
-        font-size: calc(var(--zlhm) * 2);
+        font-size: calc(var(--zlhm) * 2.1);
     }
 </style>

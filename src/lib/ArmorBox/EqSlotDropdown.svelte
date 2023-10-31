@@ -95,11 +95,6 @@
         pendingSearchClear = true;
     }
 
-    $: if (slotOpen && itemList) {
-        setTimeout(() => {
-            searchBarInput.select();
-        }, 25);
-    }
     $: if (itemList) {
         for (let i = 0; i < itemList.childElementCount; i++) {
             elementData[data[i].name] = {
@@ -120,10 +115,13 @@
     on:mouseenter={() => (clearAllowed = false)}
     on:mouseleave={() => (clearAllowed = true)}
     on:transitionend={(e) => {
-        if (e.propertyName == "visibility" && pendingSearchClear) {
+        if (pendingSearchClear && e.propertyName == "visibility") {
             pendingSearchClear = false;
             searchBarInput.value = "";
             filterItemList();
+        }
+        if (slotOpen && e.propertyName == "visibility") {
+            searchBarInput.select();
         }
     }}
     on:transitioncancel={(e) => {
@@ -133,7 +131,7 @@
     }}
 >
     {#await fetchFile}
-        <span>Loading...</span>
+        <span>Loading items...</span>
     {:then items}
         <div class="searchBarCont">
             <input
@@ -184,7 +182,7 @@
     }
     .dropdown > span {
         position: absolute;
-        width: 60%;
+        width: min-content;
         top: 50%;
         font-size: calc(var(--zlhm) * 3);
         transform: translate(0, -50%);
