@@ -1,5 +1,5 @@
 import { writable } from "svelte/store";
 
-let selectedGearData = writable({}), buildStats = writable({});
+let selectedEqData = writable({}), buildStats = writable({}), selectedGearData = writable({});
 
-export {selectedGearData, buildStats};
+export {selectedEqData, buildStats, selectedGearData};

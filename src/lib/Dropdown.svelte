@@ -1,23 +1,28 @@
 <script>
-    import ListItem from "./ListItem.svelte";
+    import EqListItem from "./ArmorBox/EqListItem.svelte";
+    import GearListItem from "./GearBox/GearListItem.svelte";
     import { createEventDispatcher } from "svelte";
 
-    export let eqSlotName, slotOpen, clearAllowed;
+    export let slotName, index, slotOpen, clearAllowed;
     const dispatch = createEventDispatcher();
 
     let dropdownWidth, searchBarInput, itemList, lastItem;
 
-    let dataFile = `https://raw.githubusercontent.com/XT8SS/fc-sv/main/src/assets/ff-data/${eqSlotName}.json`;
+    let file = `https://raw.githubusercontent.com/XT8SS/fc-sv/main/src/assets/ff-data/${slotName}.json`;
     let data,
         elementData = {};
 
     let pendingSearchClear = false;
 
-    const fetchFile = fetch(dataFile)
+    const fetchFile = fetch(file)
         .then(async (response) => {
             if (response.status != 200) {
                 console.error(
-                    `Failed to fetch ${eqSlotName} slot data from ${dataFile}\nResponse status: ${response.status}`
+                    `Failed to fetch ${
+                        (index ? "weapon #" : "") + slotName
+                    } slot data from ${file}\nResponse status: ${
+                        response.status
+                    }`
                 );
                 return;
             }
@@ -26,7 +31,9 @@
         })
         .catch((e) => {
             console.error(
-                `Failed to initiate ${eqSlotName} slot data fetch from ${dataFile}\n${e}`
+                `Failed to initiate ${
+                    (index ? "weapon #" : "") + slotName
+                } slot data fetch from ${file}\n${e}`
             );
         });
 
@@ -39,7 +46,8 @@
         lastItem = visibleItems[visibleItems.length - 1];
         if (lastItem) {
             lastItem.classList.add("lastItem");
-        } else {
+        }
+        if (!lastItem || lastItem.classList.contains("duplicate")) {
             lastItem = searchBarInput;
         }
         if (visibleItems.length <= 4) {
@@ -115,13 +123,17 @@
     on:mouseenter={() => (clearAllowed = false)}
     on:mouseleave={() => (clearAllowed = true)}
     on:transitionend={(e) => {
-        if (pendingSearchClear && e.propertyName == "visibility") {
-            pendingSearchClear = false;
-            searchBarInput.value = "";
-            filterItemList();
-        }
-        if (slotOpen && e.propertyName == "visibility") {
-            searchBarInput.select();
+        if (e.propertyName == "visibility") {
+            if (pendingSearchClear) {
+                pendingSearchClear = false;
+                searchBarInput.value = "";
+                filterItemList();
+            }
+            if (slotOpen) {
+                setTimeout(() => {
+                    searchBarInput.select();
+                });
+            }
         }
     }}
     on:transitioncancel={(e) => {
@@ -145,41 +157,27 @@
         </div>
         <ul bind:this={itemList}>
             {#each items as item}
-                <ListItem
-                    bind:itemData={item}
-                    bind:slotOpen
-                    bind:eqSlotName
-                    on:itemSelect={updateItemList}
-                />
+                {#if index}
+                    <GearListItem
+                        itemData={item}
+                        bind:slotOpen
+                        {index}
+                        on:itemSelect={updateItemList}
+                    />
+                {:else}
+                    <EqListItem
+                        itemData={item}
+                        bind:slotOpen
+                        eqSlotName={slotName}
+                        on:itemSelect={updateItemList}
+                    />
+                {/if}
             {/each}
         </ul>
     {/await}
 </div>
 
 <style>
-    .dropdown {
-        background: repeating-linear-gradient(
-            -45deg,
-            #00000008,
-            #00000008 0.5%,
-            var(--ff-sand) 0,
-            var(--ff-sand) 3.5%
-        );
-        background-color: var(--ff-sand);
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        width: 45%;
-        margin-top: 12.5%;
-        padding: 1%;
-        border: calc(var(--zlhm) * 0.5) solid #00000075;
-        border-radius: 1.25%;
-        box-shadow: 0 calc(var(--zlhm) * 0.75) calc(var(--zlhm) * 1.375)
-            var(--dark-semi-transparent);
-        font-family: "highway_gothicregular";
-        transition: visibility 0.15s, opacity 0.15s ease;
-        z-index: 2;
-    }
     .dropdown > span {
         position: absolute;
         width: min-content;
@@ -190,9 +188,9 @@
     }
     .searchBarCont {
         display: flex;
-        position: absolute;
+        position: relative;
         height: 12.5%;
-        width: 95%;
+        width: 100%;
         padding: 2% 2.5%;
         color: var(--dark);
         background-color: #00000050;

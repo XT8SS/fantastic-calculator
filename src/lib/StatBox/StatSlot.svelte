@@ -3,7 +3,6 @@
 
     export let codeName, formalName;
 
-    let armorStatValue;
     let statContainerWidth;
     let hover, armorHover;
 
@@ -55,7 +54,6 @@
             style={armorHover
                 ? `font-size: ${(statContainerWidth * 0.7) / 6.85}px;`
                 : ""}
-            bind:this={armorStatValue}
             on:mouseenter={() => (armorHover = true)}
             on:mouseleave={() => (armorHover = false)}
             on:focusin={() => (armorHover = true)}

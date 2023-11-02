@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
     import ArmorBox from "./lib/ArmorBox/ArmorBox.svelte";
     import StatBox from "./lib/StatBox/StatBox.svelte";
-    import WeaponBox from "./lib/WeaponBox.svelte";
+    import WeaponBox from "./lib/GearBox/GearBox.svelte";
 
     let mainHeight;
     let winHeight, winWidth, landscape;

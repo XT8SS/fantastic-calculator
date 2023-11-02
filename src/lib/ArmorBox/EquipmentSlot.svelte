@@ -1,23 +1,21 @@
 <script>
-    import EqSlotDropdown from "./EqSlotDropdown.svelte";
-    import "iconify-icon";
+    import Dropdown from "../Dropdown.svelte";
     import { fade } from "svelte/transition";
-    import { selectedGearData } from "../stores";
-    import { noneItemData } from "../vars";
-    import Tooltip from "../Tooltip.svelte";
+    import { selectedEqData } from "../stores";
+    import { noneEqData } from "../vars";
 
     export let eqSlotName;
 
-    let eqSlotCont, eqSlotIcon, eqSlotDDButton, eqSlotIconHeight;
-    let selectedSlotData = noneItemData;
+    let eqSlotCont, eqSlotIcon, eqSlotIconHeight;
+    let selectedSlotData = noneEqData;
     let slotOpen, clearAllowed;
     let selectedItem;
 
     $: if (
-        $selectedGearData[eqSlotName] &&
-        $selectedGearData[eqSlotName].name != selectedSlotData.name
+        $selectedEqData[eqSlotName] &&
+        $selectedEqData[eqSlotName].name != selectedSlotData.name
     ) {
-        selectedSlotData = $selectedGearData[eqSlotName];
+        selectedSlotData = $selectedEqData[eqSlotName];
     }
 </script>
 
@@ -47,9 +45,7 @@
 <div
     class="eqSlotCont"
     class:slotOpen
-    class:clearAllowed={clearAllowed &&
-        selectedItem &&
-        selectedItem.classList.contains("selectedItem")}
+    class:clearAllowed={clearAllowed && selectedItem}
     bind:this={eqSlotCont}
     on:keydown={(e) => {
         if (e.key == "Escape") {
@@ -67,14 +63,14 @@
         class="eqSlotIcon"
         bind:this={eqSlotIcon}
         bind:offsetHeight={eqSlotIconHeight}
-        style:min-width={`${eqSlotIconHeight}px`}
+        style:width={`${eqSlotIconHeight}px`}
     >
         {#key selectedSlotData}
             <a
                 transition:fade={{ duration: 150 }}
                 href={selectedSlotData.link}
                 target="_blank"
-                style={selectedSlotData.link ? "" : "display: none;"}
+                style:display={selectedSlotData.link ? "" : "none"}
                 on:focusin={(e) => {
                     if (e.relatedTarget == null) {
                         clearAllowed = true;
@@ -86,15 +82,11 @@
                     alt={selectedSlotData.name}
                     draggable="false"
                 />
-                <Tooltip text={selectedSlotData.name} position="left" />
+                <span class="tooltip" id="left">{selectedSlotData.name}</span>
             </a>
         {/key}
     </div>
-    <button
-        class="eqSlotDDButton"
-        bind:this={eqSlotDDButton}
-        on:click={() => (slotOpen = !slotOpen)}
-    >
+    <button class="ddButton" on:click={() => (slotOpen = !slotOpen)}>
         {eqSlotName.charAt(0).toUpperCase() + eqSlotName.slice(1)}
         <iconify-icon icon="iconamoon:arrow-down-2-fill" />
     </button>
@@ -108,14 +100,19 @@
         }}
     >
         <iconify-icon icon="maki:cross" />
-        <Tooltip text="Clear selection" position="top" />
+        <span class="tooltip" id="top">Clear selection</span>
     </button>
-    <EqSlotDropdown
-        bind:eqSlotName
+    <Dropdown
+        slotName={eqSlotName}
+        index={null}
         bind:slotOpen
         bind:clearAllowed
         on:itemSelect={(e) => {
-            selectedItem = e.detail;
+            setTimeout(() => {
+                selectedItem = e.detail.classList.contains("selectedItem")
+                    ? e.detail
+                    : null;
+            });
         }}
     />
 </div>
@@ -130,7 +127,7 @@
         height: 100%;
         margin-right: 2%;
         padding: 0.75% 0.5% 0.5% 0.75%;
-        border-radius: 7.5%;
+        border-radius: calc(var(--zlhm));
         border-top: calc(var(--zlhm) * 0.45) solid #00000035;
         border-left: calc(var(--zlhm) * 0.45) solid #00000035;
         border-right: calc(var(--zlhm) * 0.45) solid var(--transparent);
@@ -144,7 +141,7 @@
         width: 95%;
         right: 1.25%;
         bottom: 1.25%;
-        border-radius: 5.5%;
+        border-radius: calc(var(--zlhm) * 0.5);
         transition: background 0.15s;
     }
     .eqSlotIcon > a:hover,
@@ -155,39 +152,22 @@
     .eqSlotIcon > a > img {
         height: 100%;
     }
-    .eqSlotDDButton {
-        display: flex;
+    .ddButton {
         flex-direction: column;
         align-items: center;
-        height: 100%;
-        width: fit-content;
-        font-family: "comic_neue_angularbold";
-        font-size: calc(var(--zlhm) * 4.25);
-        color: var(--dark-almost-transparent);
-        transition: color 0.1s ease;
     }
-    .eqSlotDDButton:hover,
-    .eqSlotDDButton:focus,
-    .slotOpen .eqSlotDDButton {
-        color: var(--dark-semi-transparent);
-    }
-    .slotOpen .eqSlotDDButton:hover,
-    .slotOpen .eqSlotDDButton:focus {
-        color: var(--dark-hardly-transparent);
-    }
-    .eqSlotDDButton > iconify-icon {
+    .ddButton > iconify-icon {
         margin: -3%;
         font-size: calc(var(--zlhm) * 4.5);
-        transition: transform 0.25s ease;
     }
-    .slotOpen .eqSlotDDButton > iconify-icon {
+    .slotOpen .ddButton > iconify-icon {
         transform: scaleY(-1);
     }
     .clearButton {
         position: relative;
         margin: auto;
         padding: 1%;
-        border-radius: 15%;
+        border-radius: calc(var(--zlhm));
         color: var(--dark-semi-transparent);
         background-color: #00000020;
         opacity: 0;

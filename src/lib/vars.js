@@ -23,7 +23,7 @@ eqSlotNames = [
     "misc",
 ],
 
-noneItemData = {
+noneEqData = {
     name: "",
     stats: {
         armor: 0,
@@ -38,6 +38,23 @@ noneItemData = {
         ammoReturn: 0,
         height: 0
     },
+    image: "",
+    link: ""
+},
+
+noneGearData = {
+    name: "",
+    info: {
+        type: "",
+        special: "",
+        default: {
+            type: "",
+            baseDmg: 0,
+            multiplier: 0
+        },
+        preview: {}
+    },
+    advanced: {},
     image: "",
     link: ""
 }
