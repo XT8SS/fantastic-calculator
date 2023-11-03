@@ -2,6 +2,7 @@
     import { createEventDispatcher } from "svelte";
     import { selectedGearData } from "../stores";
     import { noneGearData } from "../vars";
+    import { calcFontSize } from "../funcs";
 
     export let itemData, slotOpen, index;
     const dispatch = createEventDispatcher();
@@ -10,10 +11,10 @@
     let itemSelected = false,
         duplicate = false;
     let itemName = itemData.name;
-    let fontSizeChange;
+    let fontSize = 2.8;
 
-    if (itemName == "Eyeball of Reckoning Ultradagger") {
-        fontSizeChange = 2.61;
+    function call(node) {
+        calcFontSize(node, fontSize, itemName);
     }
 
     function selectItem(e) {
@@ -39,15 +40,15 @@
     }
 </script>
 
-<li bind:this={listItem} class:selectedItem={itemSelected} class:duplicate>
+<li
+    bind:this={listItem}
+    class:selectedItem={itemSelected}
+    class:duplicate
+    use:call
+>
     <button on:click={selectItem} disabled={duplicate}>
         <img src={itemData.image} alt="" />
-        <span
-            style:font-size={fontSizeChange
-                ? `calc(var(--u) * ${fontSizeChange})`
-                : ""}
-            style:line-height={fontSizeChange ? "95%" : ""}
-        >
+        <span>
             {itemName}
         </span>
     </button>

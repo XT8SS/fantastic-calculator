@@ -6,7 +6,7 @@
 
 <div class="gearBox" bind:this={gearBox}>
     {#each [1, 2, 3, 4, 5] as index}
-        <GearSlot slotName="weapons" {index} />
+        <GearSlot slotName="gear" {index} />
     {/each}
 </div>
 

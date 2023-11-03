@@ -2,6 +2,7 @@
     import { createEventDispatcher } from "svelte";
     import { selectedEqData, buildStats } from "../stores";
     import { stats, noneEqData } from "../vars";
+    import { calcFontSize } from "../funcs";
 
     export let itemData, slotOpen, eqSlotName;
     const dispatch = createEventDispatcher();
@@ -9,14 +10,10 @@
     let listItem;
     let itemSelected = false;
     let itemName = itemData.name;
-    let fontSizeChange;
+    let fontSize = 2.8;
 
-    if (itemName == "Woodwhack Legionnaire Chestpiece") {
-        fontSizeChange = 2.59;
-    } else if (itemName == "Broken Thumb Drillbit Emporium Chassis") {
-        fontSizeChange = 2.76;
-    } else if (itemName.includes("Spectral Vanguard Platebody")) {
-        fontSizeChange = 2.74;
+    function call(node) {
+        calcFontSize(node, fontSize, itemName);
     }
 
     function selectItem(e) {
@@ -38,15 +35,10 @@
     }
 </script>
 
-<li bind:this={listItem} class:selectedItem={itemSelected}>
+<li bind:this={listItem} class:selectedItem={itemSelected} use:call>
     <button on:click={selectItem}>
         <img src={itemData.image} alt="" />
-        <span
-            style:font-size={fontSizeChange
-                ? `calc(var(--u) * ${fontSizeChange})`
-                : ""}
-            style:line-height={fontSizeChange ? "95%" : ""}
-        >
+        <span>
             {itemName}
         </span>
     </button>
