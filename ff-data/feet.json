@@ -1,0 +1,452 @@
+[
+    {
+        "name": "Bronze Boots",
+        "stats": {
+            "armor": 2,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 2,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cd/Bronze_Boots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Bronze"
+    },
+    {
+        "name": "Iron Boots",
+        "stats": {
+            "armor": 3,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c0/Iron_Boots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Iron"
+    },
+    {
+        "name": "Cobalt Boots",
+        "stats": {
+            "armor": 4,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 4,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/aa/Cobalt_Boots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Cobalt"
+    },
+    {
+        "name": "Titanium Boots",
+        "stats": {
+            "armor": 5,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 4,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/53/Titatnium_Boots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Titanium"
+    },
+    {
+        "name": "Gold Boots",
+        "stats": {
+            "armor": 7,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/73/Gold_Boots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Gold"
+    },
+    {
+        "name": "Onyx Boots",
+        "stats": {
+            "armor": 8,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f1/Onyx_Boots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Onyx"
+    },
+    {
+        "name": "Black Shoes",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/94/Black_Shoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Clothing#Shoes"
+    },
+    {
+        "name": "Brown Shoes",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/05/Brown_Shoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Clothing#Shoes"
+    },
+    {
+        "name": "Green Shoes",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9c/Green_Shoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Clothing#Shoes"
+    },
+    {
+        "name": "Red Shoes",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/88/Red_Shoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Clothing#Shoes"
+    },
+    {
+        "name": "White Shoes",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/ae/White_Shoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Clothing#Shoes"
+    },
+    {
+        "name": "Guardian Lower Legs",
+        "stats": {
+            "armor": 12,
+            "magicDmg": 35,
+            "meleeDmg": 35,
+            "rangedDmg": 35,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0.8
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/ff/GuardianBoots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Guardian_Set#Lower_Legs"
+    },
+    {
+        "name": "Black Supershoes",
+        "stats": {
+            "armor": 10,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/aa/BlackSupershoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Black_Supershoes"
+    },
+    {
+        "name": "Clown Shoes",
+        "stats": {
+            "armor": 8,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 4,
+            "jumpPower": 45,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cb/ClownShoes-0.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Clown_Shoes"
+    },
+    {
+        "name": "Dark Powerboots",
+        "stats": {
+            "armor": 10,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c8/DarkPowerboots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dark_Powerboots"
+    },
+    {
+        "name": "Golden Powerboots",
+        "stats": {
+            "armor": 10,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/08/GoldenPowerboots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Golden_Powerboots"
+    },
+    {
+        "name": "Green Powerboots",
+        "stats": {
+            "armor": 10,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8b/GreenPowerboots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Green_Powerboots"
+    },
+    {
+        "name": "Grey Supershoes",
+        "stats": {
+            "armor": 10,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3d/GreySupershoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Grey_Supershoes"
+    },
+    {
+        "name": "Jump Boots",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 4,
+            "jumpPower": 40,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7c/Jump_Boots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Jump_Boots"
+    },
+    {
+        "name": "Nightmare Boots",
+        "stats": {
+            "armor": 8,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 7,
+            "jumpPower": -20,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b3/NightmareBoots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Nightmare_Boots"
+    },
+    {
+        "name": "Otherworld Boots",
+        "stats": {
+            "armor": 8,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 3.5,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/30/OtherworldBoots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Otherworld_Boots"
+    },
+    {
+        "name": "Phantom Boots",
+        "stats": {
+            "armor": 5,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c5/PhantomBoots.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Phantom_Boots"
+    },
+    {
+        "name": "Red Supershoes",
+        "stats": {
+            "armor": 10,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3f/RedSupershoes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Red_Supershoes"
+    },
+    {
+        "name": "Spider Stilts",
+        "stats": {
+            "armor": 4,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 7,
+            "jumpPower": 40,
+            "ammoReturn": 0,
+            "height": 2
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/29/SpiderStilts.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spider_Stilts"
+    },
+    {
+        "name": "Tag Red Lazer",
+        "stats": {
+            "armor": 9,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 7,
+            "jumpPower": 7,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/24/TagRedLazer.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tag_Red_Lazer"
+    }
+]
