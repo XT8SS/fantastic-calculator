@@ -27,6 +27,6 @@
         height: 100%;
         width: 40.987%;
         padding: 2.5% 2.5% 2.5% 0.5%;
-        border-radius: calc(var(--zlhm) * 1.75);
+        border-radius: calc(var(--u) * 2.35);
     }
 </style>

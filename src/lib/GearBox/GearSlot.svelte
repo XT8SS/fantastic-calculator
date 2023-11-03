@@ -62,7 +62,7 @@
             {/key}
         </div>
     </div>
-    <Dropdown {slotName} {index} bind:slotOpen clearAllowed />
+    <Dropdown {slotName} {index} bind:slotOpen />
 </div>
 
 <style>
@@ -86,7 +86,7 @@
         height: 100%;
         width: 70%;
         padding: 3%;
-        border-radius: calc(var(--zlhm));
+        border-radius: calc(var(--u) * 1.35);
         background-color: var(--dark-almost-transparent);
     }
     .gearAtkPreviews {
@@ -105,7 +105,7 @@
         width: 100%;
         top: 0;
         left: 0;
-        border-radius: calc(var(--zlhm) * 0.75);
+        border-radius: calc(var(--u));
         transition: background 0.15s;
     }
     .gearSlotIcon > a:hover,

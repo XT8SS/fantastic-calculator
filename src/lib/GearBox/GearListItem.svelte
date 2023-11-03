@@ -13,7 +13,7 @@
     let fontSizeChange;
 
     if (itemName == "Eyeball of Reckoning Ultradagger") {
-        fontSizeChange = 1.9;
+        fontSizeChange = 2.61;
     }
 
     function selectItem(e) {
@@ -44,8 +44,11 @@
         <img src={itemData.image} alt="" />
         <span
             style:font-size={fontSizeChange
-                ? `calc(var(--zlhm) * ${fontSizeChange})`
-                : ""}>{itemName}</span
+                ? `calc(var(--u) * ${fontSizeChange})`
+                : ""}
+            style:line-height={fontSizeChange ? "95%" : ""}
         >
+            {itemName}
+        </span>
     </button>
 </li>

@@ -26,7 +26,7 @@
         height: 64.54%;
         width: 100%;
         padding: 5%;
-        border-radius: calc(var(--zlhm) * 1.5);
+        border-radius: calc(var(--u) * 2);
         z-index: 1;
     }
 </style>

@@ -3,7 +3,7 @@
     import GearListItem from "./GearBox/GearListItem.svelte";
     import { createEventDispatcher } from "svelte";
 
-    export let slotName, index, slotOpen, clearAllowed;
+    export let slotName, index, slotOpen;
     const dispatch = createEventDispatcher();
 
     let dropdownWidth, searchBarInput, itemList, lastItem;
@@ -120,8 +120,6 @@
     bind:offsetWidth={dropdownWidth}
     style:height={`${dropdownWidth * 1.25}px`}
     class="dropdown"
-    on:mouseenter={() => (clearAllowed = false)}
-    on:mouseleave={() => (clearAllowed = true)}
     on:transitionend={(e) => {
         if (e.propertyName == "visibility") {
             if (pendingSearchClear) {
@@ -131,6 +129,8 @@
             }
             if (slotOpen) {
                 setTimeout(() => {
+                    searchBarInput.click();
+                    searchBarInput.focus();
                     searchBarInput.select();
                 });
             }
@@ -139,6 +139,13 @@
     on:transitioncancel={(e) => {
         if (e.propertyName == "visibility") {
             pendingSearchClear = false;
+            if (slotOpen) {
+                setTimeout(() => {
+                    searchBarInput.click();
+                    searchBarInput.focus();
+                    searchBarInput.select();
+                });
+            }
         }
     }}
 >
@@ -182,8 +189,8 @@
         position: absolute;
         width: min-content;
         top: 50%;
-        font-size: calc(var(--zlhm) * 3);
-        transform: translate(0, -50%);
+        font-size: calc(var(--u) * 4);
+        translate: 0 -50%;
         text-align: center;
     }
     .searchBarCont {
@@ -194,13 +201,13 @@
         padding: 2% 2.5%;
         color: var(--dark);
         background-color: #00000050;
-        border: calc(var(--zlhm) * 0.375) #00000075 solid;
-        border-radius: calc(var(--zlhm) * 0.5);
+        border: calc(var(--u) * 0.5) #00000075 solid;
+        border-radius: calc(var(--u) * 0.65);
     }
     .searchBarInput {
         height: 100%;
         width: 100%;
-        font-size: calc(var(--zlhm) * 2);
+        font-size: calc(var(--u) * 2.65);
     }
     ul {
         position: absolute;
@@ -212,9 +219,9 @@
         overflow-anchor: none;
     }
     ul::-webkit-scrollbar {
-        width: calc(var(--zlhm));
+        width: calc(var(--u) * 1.35);
     }
     ul::-webkit-scrollbar-thumb {
-        border-radius: calc(var(--zlhm) * 2.5);
+        border-radius: calc(var(--u) * 3.35);
     }
 </style>

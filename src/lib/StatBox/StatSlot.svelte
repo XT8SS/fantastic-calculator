@@ -100,7 +100,7 @@
         display: flex;
         align-items: center;
         height: 100%;
-        font-size: calc(var(--zlhm) * 2.85);
+        font-size: calc(var(--u) * 3.8);
     }
     .statValue:focus {
         outline: none;

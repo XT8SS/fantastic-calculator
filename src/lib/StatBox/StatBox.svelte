@@ -26,7 +26,7 @@
         height: 34.96%;
         width: 100%;
         padding: 2.75%;
-        border-radius: calc(var(--zlhm));
+        border-radius: calc(var(--u));
         color: var(--light);
         font-family: "Source Sans 3";
     }

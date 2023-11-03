@@ -106,7 +106,6 @@
         slotName={eqSlotName}
         index={null}
         bind:slotOpen
-        bind:clearAllowed
         on:itemSelect={(e) => {
             setTimeout(() => {
                 selectedItem = e.detail.classList.contains("selectedItem")
@@ -127,11 +126,11 @@
         height: 100%;
         margin-right: 2%;
         padding: 0.75% 0.5% 0.5% 0.75%;
-        border-radius: calc(var(--zlhm));
-        border-top: calc(var(--zlhm) * 0.45) solid #00000035;
-        border-left: calc(var(--zlhm) * 0.45) solid #00000035;
-        border-right: calc(var(--zlhm) * 0.45) solid var(--transparent);
-        border-bottom: calc(var(--zlhm) * 0.45) solid var(--transparent);
+        border-radius: calc(var(--u) * 1.35);
+        border-top: calc(var(--u) * 0.6) solid #00000035;
+        border-left: calc(var(--u) * 0.6) solid #00000035;
+        border-right: calc(var(--u) * 0.6) solid var(--transparent);
+        border-bottom: calc(var(--u) * 0.6) solid var(--transparent);
         background-color: #00000020;
     }
     .eqSlotIcon > a {
@@ -141,7 +140,7 @@
         width: 95%;
         right: 1.25%;
         bottom: 1.25%;
-        border-radius: calc(var(--zlhm) * 0.5);
+        border-radius: calc(var(--u) * 0.65);
         transition: background 0.15s;
     }
     .eqSlotIcon > a:hover,
@@ -158,7 +157,7 @@
     }
     .ddButton > iconify-icon {
         margin: -3%;
-        font-size: calc(var(--zlhm) * 4.5);
+        font-size: calc(var(--u) * 6);
     }
     .slotOpen .ddButton > iconify-icon {
         transform: scaleY(-1);
@@ -167,7 +166,7 @@
         position: relative;
         margin: auto;
         padding: 1%;
-        border-radius: calc(var(--zlhm));
+        border-radius: calc(var(--u) * 1.35);
         color: var(--dark-semi-transparent);
         background-color: #00000020;
         opacity: 0;
@@ -180,7 +179,7 @@
     }
     .clearButton > iconify-icon {
         display: block;
-        font-size: calc(var(--zlhm) * 4);
+        font-size: calc(var(--u) * 5.35);
     }
     .clearAllowed .clearButton {
         opacity: 1;

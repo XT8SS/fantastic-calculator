@@ -11,18 +11,12 @@
     let itemName = itemData.name;
     let fontSizeChange;
 
-    if (itemName == "Woodwhack Legionnaire Helmet") {
-        fontSizeChange = 2.1;
-    } else if (itemName == "Woodwhack Legionnaire Chestpiece") {
-        fontSizeChange = 1.7;
+    if (itemName == "Woodwhack Legionnaire Chestpiece") {
+        fontSizeChange = 2.59;
     } else if (itemName == "Broken Thumb Drillbit Emporium Chassis") {
-        fontSizeChange = 1.8;
+        fontSizeChange = 2.76;
     } else if (itemName.includes("Spectral Vanguard Platebody")) {
-        fontSizeChange = 2;
-    } else if (itemName == "Pettyganger's Parade Legwarmers") {
-        fontSizeChange = 2;
-    } else if (itemName.includes("Spectral Vanguard Platelegs")) {
-        fontSizeChange = 2.1;
+        fontSizeChange = 2.74;
     }
 
     function selectItem(e) {
@@ -49,8 +43,11 @@
         <img src={itemData.image} alt="" />
         <span
             style:font-size={fontSizeChange
-                ? `calc(var(--zlhm) * ${fontSizeChange})`
-                : ""}>{itemName}</span
+                ? `calc(var(--u) * ${fontSizeChange})`
+                : ""}
+            style:line-height={fontSizeChange ? "95%" : ""}
         >
+            {itemName}
+        </span>
     </button>
 </li>
