@@ -9,29 +9,20 @@
         "name": "Blade of the Throne",
         "info": {
             "type": "Magic",
-            "special": "Caster Form",
-            "default": {
-                "type": "magicDmg",
-                "baseDmg": 500,
-                "multiplier": 1
-            },
-            "preview": {
-                "Sword Form": "",
-                "Caster Form": ""
-            }
+            "special": "Caster Form"
         },
-        "advanced": {
-            "Sword Form": {
-                "type": "magicDmg",
-                "baseVal": 500,
-                "multiplier": 1
+        "advanced": [
+            {
+                "name": "Sword Form",
+                "base": 500,
+                "mult": 1
             },
-            "Caster Form": {
-                "type": "magicDmg",
-                "baseVal": 350,
-                "multiplier": 1
+            {
+                "name": "Caster Form",
+                "base": 250,
+                "mult": 1
             }
-        },
+        ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e6/Blade_of_the_Throne.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Blade_of_the_Throne"
     },
@@ -1558,7 +1549,7 @@
         "name": "Jade Superhammer",
         "info": {
             "type": "Melee",
-            "special": "None",
+            "special": "Charge Slam",
             "default": {
                 "type": "meleeDmg",
                 "baseDmg": 456,
