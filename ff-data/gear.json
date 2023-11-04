@@ -21,7 +21,7 @@
             {
                 "name": "Caster Form",
                 "type": "magicDmg",
-                "base": 250,
+                "base": 350,
                 "mult": 1
             }
         ],
