@@ -14,11 +14,13 @@
         "advanced": [
             {
                 "name": "Sword Form",
+                "type": "magicDmg",
                 "base": 500,
                 "mult": 1
             },
             {
                 "name": "Caster Form",
+                "type": "magicDmg",
                 "base": 250,
                 "mult": 1
             }
