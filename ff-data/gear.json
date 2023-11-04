@@ -1025,23 +1025,23 @@
                 "name": "Eternity Beam (beam)",
                 "type": "magicDmg/meleeDmg",
                 "base": 233.3,
-                "magicDmgmult": 0.33,
-                "meleeDmgmult": 0.2
+                "magicDmgMult": 0.33,
+                "meleeDmgMult": 0.2
             },
             {
                 "name": "Eternity Beam (beam total)",
                 "type": "magicDmg/meleeDmg",
                 "base": 1400,
-                "magicDmgmult": 1.98,
-                "meleeDmgmult": 1.2
+                "magicDmgMult": 1.98,
+                "meleeDmgMult": 1.2
             },
             {
                 "special": true,
                 "name": "Eternity Beam (total)",
                 "type": "magicDmg/meleeDmg",
                 "base": 1855,
-                "magicDmgmult": 1.98,
-                "meleeDmgmult": 2.2
+                "magicDmgMult": 1.98,
+                "meleeDmgMult": 2.2
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/27/Frontier_Greatsword.png",
@@ -1387,6 +1387,7 @@
                 "mult": 0.5
             },
             {
+                "special": true,
                 "name": "Siphon Spin (total)",
                 "type": "meleeDmg",
                 "base": 420,
@@ -1753,16 +1754,16 @@
                 "name": "Sword Form",
                 "type": "magicDmg/rangedDmg",
                 "base": 525,
-                "magicDmgmult": 0.5,
-                "rangedDmgmult": 0.5
+                "magicDmgMult": 0.5,
+                "rangedDmgMult": 0.5
             },
             {
                 "special": true,
                 "name": "Caster Form",
                 "type": "magicDmg/rangedDmg",
                 "base": 375,
-                "magicDmgmult": 0.5,
-                "rangedDmgmult": 0.5
+                "magicDmgMult": 0.5,
+                "rangedDmgMult": 0.5
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/95/TheJadeTwin.png",
@@ -1779,16 +1780,16 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg",
                 "base": 375,
-                "magicDmgmult": 0.5,
-                "meleeDmgmult": 0.5
+                "magicDmgMult": 0.5,
+                "meleeDmgMult": 0.5
             },
             {
                 "special": true,
                 "name": "Eyeball of Reckoning",
                 "type": "magicDmg/meleeDmg",
                 "base": 675,
-                "magicDmgmult": 0.5,
-                "meleeDmgmult": 0.5
+                "magicDmgMult": 0.5,
+                "meleeDmgMult": 0.5
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/ce/Eyeball_of_Reckoning_Ultradagger.png",
@@ -1815,16 +1816,16 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg",
                 "base": 375,
-                "magicDmgmult": 0.5,
-                "meleeDmgmult": 0.5
+                "magicDmgMult": 0.5,
+                "meleeDmgMult": 0.5
             },
             {
                 "special": true,
                 "name": "Magic Blitz (twirl)",
                 "type": "magicDmg/meleeDmg",
                 "base": 600,
-                "magicDmgmult": 0.5,
-                "meleeDmgmult": 0.5
+                "magicDmgMult": 0.5,
+                "meleeDmgMult": 0.5
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8a/SilverCystalUltradagger.png",
@@ -1841,18 +1842,18 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 50,
-                "magicDmgmult": 0.2,
-                "meleeDmgmult": 0.2,
-                "rangedDmgmult": 0.2
+                "magicDmgMult": 0.2,
+                "meleeDmgMult": 0.2,
+                "rangedDmgMult": 0.2
             },
             {
                 "special": true,
                 "name": "Fireball",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 250,
-                "magicDmgmult": 0.2,
-                "meleeDmgmult": 0.2,
-                "rangedDmgmult": 0.2
+                "magicDmgMult": 0.2,
+                "meleeDmgMult": 0.2,
+                "rangedDmgMult": 0.2
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/90/Salamander-2.png",
@@ -1869,16 +1870,16 @@
                 "name": "Basic Attack",
                 "type": "meleeDmg/rangedDmg",
                 "base": 80,
-                "meleeDmgmult": 0.25,
-                "rangedDmgmult": 0.25
+                "meleeDmgMult": 0.25,
+                "rangedDmgMult": 0.25
             },
             {
                 "special": true,
                 "name": "Fireball",
                 "type": "meleeDmg/rangedDmg",
                 "base": 250,
-                "meleeDmgmult": 0.25,
-                "rangedDmgmult": 0.25
+                "meleeDmgMult": 0.25,
+                "rangedDmgMult": 0.25
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fc/OrangeSalamander.png",
@@ -1895,16 +1896,16 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/rangedDmg",
                 "base": 80,
-                "magicDmgmult": 0.25,
-                "rangedDmgmult": 0.25
+                "magicDmgMult": 0.25,
+                "rangedDmgMult": 0.25
             },
             {
                 "special": true,
                 "name": "Fireball",
                 "type": "magicDmg/rangedDmg",
                 "base": 250,
-                "magicDmgmult": 0.25,
-                "rangedDmgmult": 0.25
+                "magicDmgMult": 0.25,
+                "rangedDmgMult": 0.25
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/53/GreenSalamander.png",
@@ -1921,16 +1922,16 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg",
                 "base": 80,
-                "magicDmgmult": 0.25,
-                "meleeDmgmult": 0.25
+                "magicDmgMult": 0.25,
+                "meleeDmgMult": 0.25
             },
             {
                 "special": true,
                 "name": "Fireball",
                 "type": "magicDmg/meleeDmg",
                 "base": 250,
-                "magicDmgmult": 0.25,
-                "meleeDmgmult": 0.25
+                "magicDmgMult": 0.25,
+                "meleeDmgMult": 0.25
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e9/PurpleSalamander.png",
@@ -1947,18 +1948,18 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 100,
-                "magicDmgmult": 0.24,
-                "meleeDmgmult": 0.24,
-                "rangedDmgmult": 0.24
+                "magicDmgMult": 0.24,
+                "meleeDmgMult": 0.24,
+                "rangedDmgMult": 0.24
             },
             {
                 "special": true,
                 "name": "Fireball",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 600,
-                "magicDmgmult": 0.24,
-                "meleeDmgmult": 0.24,
-                "rangedDmgmult": 0.24
+                "magicDmgMult": 0.24,
+                "meleeDmgMult": 0.24,
+                "rangedDmgMult": 0.24
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5e/WhiteSalamander.png",
@@ -1975,18 +1976,18 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 120,
-                "magicDmgmult": 0.24,
-                "meleeDmgmult": 0.24,
-                "rangedDmgmult": 0.24
+                "magicDmgMult": 0.24,
+                "meleeDmgMult": 0.24,
+                "rangedDmgMult": 0.24
             },
             {
                 "special": true,
                 "name": "Fireball",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 500,
-                "magicDmgmult": 0.24,
-                "meleeDmgmult": 0.24,
-                "rangedDmgmult": 0.24
+                "magicDmgMult": 0.24,
+                "meleeDmgMult": 0.24,
+                "rangedDmgMult": 0.24
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c3/BlackSalamander.png",
@@ -2003,18 +2004,18 @@
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 120,
-                "magicDmgmult": 0.23,
-                "meleeDmgmult": 0.23,
-                "rangedDmgmult": 0.23
+                "magicDmgMult": 0.23,
+                "meleeDmgMult": 0.23,
+                "rangedDmgMult": 0.23
             },
             {
                 "special": true,
                 "name": "Fireball",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 600,
-                "magicDmgmult": 0.23,
-                "meleeDmgmult": 0.23,
-                "rangedDmgmult": 0.23
+                "magicDmgMult": 0.23,
+                "meleeDmgMult": 0.23,
+                "rangedDmgMult": 0.23
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c9/GoldSalamander.png",
