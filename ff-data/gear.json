@@ -2,6 +2,7 @@
     {
         "tool": true,
         "name": "Mushroom Parasol",
+        "description": "A parasol that slows the user's fall while held.",
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/53/Mushroom_Parasol_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mushroom_Parasol"
     },
