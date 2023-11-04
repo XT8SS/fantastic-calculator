@@ -14,6 +14,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Sword Form",
                 "type": "magicDmg",
                 "base": 500,
@@ -38,6 +39,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg",
                 "base": 500,
@@ -68,6 +70,13 @@
         },
         "moves": [
             {
+                "basic": true,
+                "name": "Charged Basic Attack",
+                "type": "magicDmg",
+                "base": 240,
+                "mult": 3.3
+            },
+            {
                 "name": "Fantastic Beamstorm (beam)",
                 "type": "magicDmg",
                 "base": 90,
@@ -92,6 +101,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg",
                 "base": 65,
@@ -134,6 +144,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg",
                 "base": 60,
@@ -158,6 +169,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg",
                 "base": 140,
@@ -188,6 +200,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg",
                 "base": 100,
@@ -212,6 +225,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg",
                 "base": 100,
@@ -235,13 +249,8 @@
         },
         "moves": [
             {
-                "name": "Uncharged Basic Attack",
-                "type": "magicDmg",
-                "base": 160,
-                "mult": 0.4
-            },
-            {
-                "name": "Fully charged Basic Attack",
+                "basic": true,
+                "name": "Charged Basic Attack",
                 "type": "magicDmg",
                 "base": 320,
                 "mult": 1.7
@@ -265,6 +274,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg",
                 "base": 90,
@@ -295,6 +305,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 15,
@@ -312,6 +323,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 42,
@@ -329,6 +341,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 32,
@@ -346,6 +359,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 22,
@@ -363,6 +377,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 30,
@@ -380,6 +395,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 92,
@@ -397,6 +413,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 66,
@@ -414,6 +431,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 47,
@@ -431,6 +449,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 48,
@@ -448,6 +467,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 142,
@@ -465,6 +485,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 101,
@@ -482,6 +503,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 70,
@@ -499,6 +521,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 66,
@@ -516,6 +539,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 192,
@@ -533,6 +557,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 138,
@@ -550,6 +575,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 94,
@@ -567,6 +593,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 83,
@@ -584,6 +611,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 242,
@@ -601,6 +629,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 172,
@@ -618,6 +647,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 117,
@@ -635,6 +665,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 100,
@@ -652,6 +683,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 294,
@@ -669,6 +701,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 210,
@@ -686,6 +719,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 142,
@@ -703,6 +737,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 275,
@@ -727,6 +762,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 128,
@@ -744,6 +780,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 455,
@@ -768,6 +805,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 500,
@@ -792,6 +830,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 305,
@@ -809,6 +848,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 143,
@@ -826,6 +866,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 133,
@@ -843,6 +884,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 350,
@@ -867,6 +909,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 500,
@@ -903,6 +946,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 500,
@@ -940,6 +984,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 420,
@@ -964,6 +1009,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 230,
@@ -994,6 +1040,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 12,
@@ -1011,6 +1058,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 575,
@@ -1056,6 +1104,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 333,
@@ -1080,6 +1129,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 205,
@@ -1097,6 +1147,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 115,
@@ -1127,6 +1178,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 240,
@@ -1144,6 +1196,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 550,
@@ -1187,6 +1240,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 118,
@@ -1217,6 +1271,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 305,
@@ -1234,6 +1289,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 118,
@@ -1251,6 +1307,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 456,
@@ -1275,6 +1332,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 212,
@@ -1299,6 +1357,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 290,
@@ -1323,6 +1382,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 525,
@@ -1353,6 +1413,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 330,
@@ -1377,6 +1438,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 420,
@@ -1407,6 +1469,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Blade Stance",
                 "type": "meleeDmg",
                 "base": 530,
@@ -1443,6 +1506,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 365,
@@ -1467,6 +1531,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 295,
@@ -1491,6 +1556,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg",
                 "base": 430,
@@ -1525,6 +1591,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Crossbow Bolt",
                 "type": "rangedDmg",
                 "base": 30,
@@ -1555,6 +1622,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 465,
@@ -1579,6 +1647,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 260,
@@ -1596,6 +1665,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 100,
@@ -1620,6 +1690,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 430,
@@ -1637,6 +1708,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Shotgun Mode",
                 "type": "rangedDmg",
                 "base": 420,
@@ -1661,6 +1733,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 200,
@@ -1678,6 +1751,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 300,
@@ -1695,6 +1769,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 5,
@@ -1712,6 +1787,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 140,
@@ -1729,6 +1805,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "rangedDmg",
                 "base": 500,
@@ -1753,6 +1830,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Sword Form",
                 "type": "magicDmg/rangedDmg",
                 "base": 525,
@@ -1779,6 +1857,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg",
                 "base": 375,
@@ -1815,6 +1894,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg",
                 "base": 375,
@@ -1841,6 +1921,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 50,
@@ -1869,6 +1950,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "meleeDmg/rangedDmg",
                 "base": 80,
@@ -1895,6 +1977,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/rangedDmg",
                 "base": 80,
@@ -1921,6 +2004,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg",
                 "base": 80,
@@ -1947,6 +2031,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 100,
@@ -1975,6 +2060,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 120,
@@ -2003,6 +2089,7 @@
         },
         "moves": [
             {
+                "basic": true,
                 "name": "Basic Attack",
                 "type": "magicDmg/meleeDmg/rangedDmg",
                 "base": 120,
