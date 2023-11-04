@@ -1171,6 +1171,7 @@
                 "special": true,
                 "name": "Magma Scorch (total)",
                 "type": "magicDmg/meleeDmg",
+                "base": 3550,
                 "magicDmgMult": 2,
                 "meleeDmgMult": 1
             }
