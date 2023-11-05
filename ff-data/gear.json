@@ -236,6 +236,13 @@
                 "type": "magicDmg",
                 "base": 50,
                 "mult": 0.33
+            },
+            {
+                "special": true,
+                "name": "Charged Solar Beam",
+                "type": "magicDmg",
+                "base": 660,
+                "mult": 2.5
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/13/Nature's_Wrath_Spellbook.png",
@@ -2116,7 +2123,15 @@
             "type": "Unique",
             "special": "None"
         },
-        "moves": [],
+        "moves": [
+            {
+                "basic": true,
+                "name": "Basic Attack",
+                "type": "rangedDmg",
+                "base": 720,
+                "mult": 0
+            }
+        ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2d/GRL.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gnome_Rocket_Launcher"
     }
