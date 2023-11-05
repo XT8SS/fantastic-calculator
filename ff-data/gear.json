@@ -1581,12 +1581,25 @@
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Zodsword"
     },
     {
+        "custom": true,
         "name": "Void Spike Ultradagger",
         "info": {
             "type": "Melee",
             "special": "Void Needle"
         },
-        "moves": [],
+        "moves": [
+            {
+                "basic": true,
+                "name": "Basic Attack",
+                "type": "meleeDmg",
+                "base": 375,
+                "mult": 1
+            },
+            {
+                "special": true,
+                "name": "Void Needle"
+            }
+        ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/98/VoidSpikeUltradagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Void_Spike_Ultradagger"
     },
@@ -1884,12 +1897,22 @@
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Eyeball_of_Reckoning_Ultradagger"
     },
     {
+        "custom": true,
         "name": "Pureblood Dagger",
         "info": {
             "type": "Unique",
             "special": "Blood Sap"
         },
-        "moves": [],
+        "moves": [
+            {
+                "basic": true,
+                "name": ""
+            },
+            {
+                "special": true,
+                "name": ""
+            }
+        ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5b/Pureblood_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pureblood_Dagger"
     },
