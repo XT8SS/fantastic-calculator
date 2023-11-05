@@ -1908,11 +1908,17 @@
         "moves": [
             {
                 "basic": true,
-                "name": ""
+                "name": "Basic Attack",
+                "base": 175
+            },
+            {
+                "name": "Blood Sap",
+                "base": 175
             },
             {
                 "special": true,
-                "name": ""
+                "name": "HP restored per Blood Sap",
+                "base": 87.5
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5b/Pureblood_Dagger.png",
