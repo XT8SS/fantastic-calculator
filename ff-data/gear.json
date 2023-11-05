@@ -1597,7 +1597,8 @@
             },
             {
                 "special": true,
-                "name": "Void Needle"
+                "name": "Void Needle",
+                "base": 935
             }
         ],
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/98/VoidSpikeUltradagger.png",
