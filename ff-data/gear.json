@@ -108,7 +108,7 @@
                 "mult": 1
             },
             {
-                "name": "HP restored per shot",
+                "name": "+ HP per shot",
                 "type": "magicDmg",
                 "base": 7,
                 "mult": 0.1
@@ -1915,7 +1915,7 @@
             },
             {
                 "special": true,
-                "name": "HP restored per Blood Sap",
+                "name": "+ HP per Blood Sap",
                 "base": 87.5
             }
         ],
