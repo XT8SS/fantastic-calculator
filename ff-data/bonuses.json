@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Baltimore Worm",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 7,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e4/Baltimore_Worm_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Baltimore_Worm"
+    },
+    {
+        "name": "Bread Mold",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 2,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1e/Bread_Mold_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bread_Mold"
+    },
+    {
+        "name": "Buttered Greens with Extra Butter",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 1,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/ea/ButteredGreensWithExtraButter.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Buttered_Greens_with_Extra_Butter"
+    },
+    {
+        "name": "Darkroot",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 25,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/85/Darkroot-0.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Darkroot"
+    },
+    {
+        "name": "Divine Grapes",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 2,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/64/DivineGrapes.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Divine_Grapes"
+    },
+    {
+        "name": "Fish of Rage",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 50,
+            "meleeDmg": 50,
+            "rangedDmg": 50,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/66/Fish_of_Rage_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Fish_of_Rage"
+    },
+    {
+        "name": "Mega-Supreme Potent Energy",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 5,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3e/Mega-SuperPotentEnergy.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mega-Supreme_Potent_Energy"
+    },
+    {
+        "name": "Mystery Slime Island",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 0,
+            "jumpPower": 100,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f1/Mystery_Slime_Island_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mystery_Slime_Island"
+    },
+    {
+        "name": "Plum Juice",
+        "stats": {
+            "armor": 0,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 3,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e4/PlumJuice.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Plum_Juice"
+    },
+    {
+        "name": "Stone Slime",
+        "stats": {
+            "armor": 10,
+            "magicDmg": 0,
+            "meleeDmg": 0,
+            "rangedDmg": 0,
+            "hpRegen": 0,
+            "endurance": 0,
+            "sightRange": 0,
+            "walkSpeed": 0,
+            "jumpPower": 0,
+            "ammoReturn": 0,
+            "height": 0
+        },
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/87/Stone_Slime_Large.png",
+        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Stone_Slime"
+    }
+]
