@@ -1,0 +1,711 @@
+[
+    {
+        "name": "Bronze Set",
+        "pieces": [
+            "Bronze Helmet",
+            "Bronze Platebody",
+            "Bronze Platelegs"
+        ]
+    },
+    {
+        "name": "Iron Set",
+        "pieces": [
+            "Iron Helmet",
+            "Iron Platebody",
+            "Iron Platelegs"
+        ]
+    },
+    {
+        "name": "Cobalt Set",
+        "pieces": [
+            "Cobalt Helmet",
+            "Cobalt Platebody",
+            "Cobalt Platelegs"
+        ]
+    },
+    {
+        "name": "Titanium Set",
+        "pieces": [
+            "Titanium Helmet",
+            "Titanium Platebody",
+            "Titanium Platelegs"
+        ]
+    },
+    {
+        "name": "Gold Set",
+        "pieces": [
+            "Gold Helmet",
+            "Gold Platebody",
+            "Gold Platelegs"
+        ]
+    },
+    {
+        "name": "Onyx Set",
+        "pieces": [
+            "Onyx Helmet",
+            "Onyx Platebody",
+            "Onyx Platelegs"
+        ]
+    },
+    {
+        "name": "Blue Wizard Set",
+        "pieces": [
+            "Blue Wizard Hat",
+            "Blue Wizard Robe Top",
+            "Blue Wizard Robe Bottom"
+        ]
+    },
+    {
+        "name": "Brash Knight Set",
+        "pieces": [
+            "Brash Knight Helmet",
+            "Brash Knight Platebody",
+            "Brash Knight Platelegs"
+        ]
+    },
+    {
+        "name": "Celestial Moon Set",
+        "pieces": [
+            "Celestial Moon Hat",
+            "Celestial Moon Top",
+            "Celestial Robe Bottom"
+        ]
+    },
+    {
+        "name": "Courting Knight Set",
+        "pieces": [
+            "Courting Knight Helmet",
+            "Courting Knight Torso",
+            "Courting Knight Legs"
+        ]
+    },
+    {
+        "name": "Dark Hunter Set",
+        "pieces": [
+            "Dark Hunter Hat",
+            "Dark Hunter Top",
+            "Dark Hunter Legs"
+        ]
+    },
+    {
+        "name": "Darkwood Warrior Set",
+        "pieces": [
+            "Darkwood Warrior Helmet",
+            "Darkwood Warrior Platebody",
+            "Darkwood Warrior Platelegs"
+        ]
+    },
+    {
+        "name": "Furnace Mummy Set",
+        "pieces": [
+            "Furnace Mummy Helmet",
+            "Furnace Mummy Platebody",
+            "Furnace Mummy Platelegs"
+        ]
+    },
+    {
+        "name": "Galaxy Wizard Set",
+        "pieces": [
+            "Galaxy Wizard Hat",
+            "Galaxy Wizard Torso",
+            "Galaxy Wizard Legs"
+        ]
+    },
+    {
+        "name": "Guardian Set",
+        "pieces": [
+            "Guardian Helmet",
+            "Guardian Torso",
+            "Guardian Legs",
+            "Guardian Lower Legs"
+        ]
+    },
+    {
+        "name": "Hardened Bronze Set",
+        "pieces": [
+            "Hardened Bronze Helmet",
+            "Hardened Bronze Platebody",
+            "Hardened Bronze Platelegs"
+        ]
+    },
+    {
+        "name": "Hedge Knight Set",
+        "pieces": [
+            "Hedge Knight Helmet",
+            "Hedge Knight Torso",
+            "Hedge Knight Legs"
+        ]
+    },
+    {
+        "name": "Illuminator's Set",
+        "pieces": [
+            "Illuminator's Hat",
+            "Illuminator's Top",
+            "Illuminator's Pants"
+        ]
+    },
+    {
+        "name": "Ivory Set",
+        "pieces": [
+            "Ivory Helmet",
+            "Ivory Chestpiece",
+            "Ivory Legs"
+        ]
+    },
+    {
+        "name": "Jade Assassin's Set",
+        "pieces": [
+            "Jade Assassin's Mask",
+            "Jade Assassin's Torso",
+            "Jade Assassin's Legs"
+        ]
+    },
+    {
+        "name": "Lagoon Spirit Set",
+        "pieces": [
+            "Lagoon Spirit Head",
+            "Lagoon Spirit Torso",
+            "Lagoon Spirit Legs"
+        ]
+    },
+    {
+        "name": "Mortmud Set",
+        "pieces": [
+            "Mortmud Hood",
+            "Mortmud Wraps",
+            "Mortmud Legs"
+        ]
+    },
+    {
+        "name": "Patched Set",
+        "pieces": [
+            "Patched Helmet",
+            "Patched Torso",
+            "Patched Legs"
+        ]
+    },
+    {
+        "name": "Razed General Set",
+        "pieces": [
+            "Razed General Hat",
+            "Razed General Torso",
+            "Razed General Legs"
+        ]
+    },
+    {
+        "name": "Red Wizard Set",
+        "pieces": [
+            "Red Wizard Hat",
+            "Red Wizard Robe Top",
+            "Red Wizard Robe Bottom"
+        ]
+    },
+    {
+        "name": "Riveted Set",
+        "pieces": [
+            "Riveted Helmet",
+            "Riveted Torso",
+            "Riveted Shorts"
+        ]
+    },
+    {
+        "name": "Skeleton Set",
+        "pieces": [
+            "Skull",
+            "Skeleton Torso",
+            "Skeleton Legs"
+        ]
+    },
+    {
+        "name": "Spikeout Set",
+        "pieces": [
+            "Spikeout Helmet",
+            "Spikeout Chestpiece",
+            "Spikeout Legs"
+        ]
+    },
+    {
+        "name": "Springtwig Set",
+        "pieces": [
+            "Springtwig Eye",
+            "Springtwig Torso",
+            "Springtwig Legs"
+        ]
+    },
+    {
+        "name": "Tomb Prowler Set",
+        "pieces": [
+            "Tomb Prowler Hat",
+            "Tomb Prowler Torso",
+            "Tomb Prowler Legs"
+        ]
+    },
+    {
+        "name": "Void Monster Set",
+        "pieces": [
+            "Void Monster Mask",
+            "Void Monster Torso",
+            "Void Monster Legs"
+        ]
+    },
+    {
+        "name": "Woodland Ranger Set",
+        "pieces": [
+            "Woodland Ranger Hat",
+            "Woodland Ranger Torso",
+            "Woodland Ranger Legs"
+        ]
+    },
+    {
+        "name": "Zhuulaczar Set",
+        "pieces": [
+            "Zhuulaczar Crown",
+            "Zhuulaczar Armored Body",
+            "Zhuulaczar Legs"
+        ]
+    },
+    {
+        "name": "Chasm Magus Set",
+        "pieces": [
+            "Chasm Magus Hat",
+            "Chasm Magus Robe Top",
+            "Chasm Magus Robe Bottom"
+        ]
+    },
+    {
+        "name": "Crabsuit Set",
+        "pieces": [
+            "Crabsuit Headgear",
+            "Crabsuit Top",
+            "Crabsuit Legs"
+        ]
+    },
+    {
+        "name": "Gardendweller Set",
+        "pieces": [
+            "Gardendweller's Hat",
+            "Gardendweller Top",
+            "Gardendweller Pants"
+        ]
+    },
+    {
+        "name": "Gauntlet Fury Set",
+        "pieces": [
+            "Gauntlet Fury Helmet",
+            "Gauntlet Fury Platebody",
+            "Gauntlet Fury Platelegs"
+        ]
+    },
+    {
+        "name": "Guild Knight Set",
+        "pieces": [
+            "Guild Knight Helmet",
+            "Guild Knight Platebody",
+            "Guild Knight Platelegs"
+        ]
+    },
+    {
+        "name": "Knight's Army Set",
+        "pieces": [
+            "Knight's Army Core",
+            "Knight's Army Platebody",
+            "Knight's Army Platelegs"
+        ]
+    },
+    {
+        "name": "Odewig Set",
+        "pieces": [
+            "Odewig Helmet",
+            "Odewig Armor",
+            "Odewig Platelegs"
+        ]
+    },
+    {
+        "name": "Pettyganger's Parade Set",
+        "pieces": [
+            "Pettyganger's Parade Mask",
+            "Pettyganger's Parade Suit Top",
+            "Pettyganger's Parade Legwarmers"
+        ]
+    },
+    {
+        "name": "Poison Construct Set",
+        "pieces": [
+            "Poison Construct Helmet",
+            "Poison Construct Torso",
+            "Poison Construct Legs"
+        ]
+    },
+    {
+        "name": "Rotted King's Set",
+        "pieces": [
+            "Rotted King's Mask",
+            "Rotted King's Chestpiece",
+            "Rotted King's Escort"
+        ]
+    },
+    {
+        "name": "Spellbound Mage Set",
+        "pieces": [
+            "Spellbound Mage Hood",
+            "Spellbound Mage Battledress",
+            "Spellbound Mage Skirt"
+        ]
+    },
+    {
+        "name": "The Earth King Regalia Set",
+        "pieces": [
+            "Earth King Regalia",
+            "Platebody of the Earth King Regalia",
+            "Platelegs of the Earth King Regalia"
+        ]
+    },
+    {
+        "name": "Forgotten Things Set",
+        "pieces": [
+            "The Mask of Forgotten Things",
+            "The Armor of Forgotten Things",
+            "The Platelegs of Forgotten Things"
+        ]
+    },
+    {
+        "name": "The Vengeful Visage Set",
+        "pieces": [
+            "The Vengeful Visage",
+            "The Vengeful Visage Top",
+            "The Vengeful Visage Bottoms"
+        ]
+    },
+    {
+        "name": "Void Lord Set",
+        "pieces": [
+            "Void Lord Helmet",
+            "Void Lord Chestpiece",
+            "Void Lord Platelegs"
+        ]
+    },
+    {
+        "name": "Tower Armor Set",
+        "pieces": [
+            "Tower Armor Platebody",
+            "Tower Armor Platelegs"
+        ]
+    },
+    {
+        "name": "Wolfram Leader Set",
+        "pieces": [
+            "Wolfram Leader Helmet",
+            "Wolfram Leader Platebody",
+            "Wolfram Leader Platelegs"
+        ]
+    },
+    {
+        "name": "World Sculptor's Set",
+        "pieces": [
+            "World Sculptor's Helmet",
+            "World Sculptor's Armor",
+            "World Sculptor's Platelegs"
+        ]
+    },
+    {
+        "name": "Aquatic Explorer Set",
+        "pieces": [
+            "Aquatic Explorer Helmet",
+            "Aquatic Explorer Armor",
+            "Aquatic Explorer Platelegs"
+        ]
+    },
+    {
+        "name": "Forgotten Life Set",
+        "pieces": [
+            "Helm of the Skater",
+            "Platebody of a Forgotten Life",
+            "Platelegs of a Forgotten Life"
+        ]
+    },
+    {
+        "name": "New Voice Set",
+        "pieces": [
+            "New Voice Helmet",
+            "New Voice Platebody",
+            "New Voice Platelegs"
+        ]
+    },
+    {
+        "name": "Romo Set",
+        "pieces": [
+            "Romo Helmet",
+            "Romo Torso",
+            "Romo Robo-Legs"
+        ]
+    },
+    {
+        "name": "Wisecrack Set",
+        "pieces": [
+            "Wisecrack Skull",
+            "Wisecrack Torso",
+            "Wisecrack Leggings"
+        ]
+    },
+    {
+        "name": "Woodwhack Legionnaire Set",
+        "pieces": [
+            "Woodwhack Legionnaire Helmet",
+            "Woodwhack Legionnaire Chestpiece",
+            "Wooden Shorts"
+        ]
+    },
+    {
+        "name": "Bedrock Set",
+        "pieces": [
+            "Bedrock Helmet",
+            "Bedrock Platebody",
+            "Bedrock Platelegs"
+        ]
+    },
+    {
+        "name": "Corrupted Gold Set",
+        "pieces": [
+            "Corrupted Gold Helmet",
+            "Corrupted Gold Platebody",
+            "Corrupted Gold Platelegs"
+        ]
+    },
+    {
+        "name": "Corrupted Onyx Set",
+        "pieces": [
+            "Corrupted Onyx Helmet",
+            "Corrupted Onyx Platebody",
+            "Corrupted Onyx Platelegs"
+        ]
+    },
+    {
+        "name": "Falling Light Set",
+        "pieces": [
+            "Falling Light Mask",
+            "Falling Light Mage Robe Top",
+            "Falling Light Mage Robe Bottoms"
+        ]
+    },
+    {
+        "name": "Court Jester Set",
+        "pieces": [
+            "Court Jester Shirt",
+            "Court Jester Pants"
+        ]
+    },
+    {
+        "name": "Fire Spellbound Mage Set",
+        "pieces": [
+            "Fire Hood",
+            "Fire Spellbound Mage Top",
+            "Fire Spellbound Mage Skirt"
+        ]
+    },
+    {
+        "name": "Guttermouth Set",
+        "pieces": [
+            "Guttermouth Helmet",
+            "Guttermouth Platebody",
+            "Guttermouth Platelegs"
+        ]
+    },
+    {
+        "name": "Ice Spellbound Mage Set",
+        "pieces": [
+            "Ice Hood",
+            "Ice Spellbound Mage Top",
+            "Ice Spellbound Mage Skirt"
+        ]
+    },
+    {
+        "name": "Nightmare Prowler Set",
+        "pieces": [
+            "Nightmare Prowler Hat",
+            "Nightmare Prowler Torso",
+            "Nightmare Prowler Leggings"
+        ]
+    },
+    {
+        "name": "Pantry Leech Set",
+        "pieces": [
+            "Pantry Leech Head",
+            "Pantry Leech Torso",
+            "Pantry Leech Platelegs"
+        ]
+    },
+    {
+        "name": "Rising Dark Set",
+        "pieces": [
+            "Rising Dark Mask",
+            "Rising Dark Robe Top",
+            "Rising Dark Robe Bottoms"
+        ]
+    },
+    {
+        "name": "Roadblocks Set",
+        "pieces": [
+            "Roadblocks Head",
+            "Roadblocks Torso",
+            "Roadblocks Legs"
+        ]
+    },
+    {
+        "name": "U-Life Set",
+        "pieces": [
+            "U-Life Helmet",
+            "U-Life Platebody",
+            "U-Life Platelegs"
+        ]
+    },
+    {
+        "name": "The Drake's Set",
+        "pieces": [
+            "The Drake's Shirt",
+            "The Drake's Pants"
+        ]
+    },
+    {
+        "name": "Wired Fury Set",
+        "pieces": [
+            "Wired Fury Helmet",
+            "Wired Fury Platebody",
+            "Wired Fury Platelegs"
+        ]
+    },
+    {
+        "name": "Green Spectral Vanguard Set",
+        "pieces": [
+            "Green Spectral Vanguard Helmet",
+            "Green Spectral Vanguard Platebody",
+            "Green Spectral Vanguard Platelegs"
+        ]
+    },
+    {
+        "name": "Blue Spectral Vanguard Set",
+        "pieces": [
+            "Blue Spectral Vanguard Helmet",
+            "Blue Spectral Vanguard Platebody",
+            "Blue Spectral Vanguard Platelegs"
+        ]
+    },
+    {
+        "name": "Purple Spectral Vanguard Set",
+        "pieces": [
+            "Purple Spectral Vanguard Helmet",
+            "Purple Spectral Vanguard Platebody",
+            "Purple Spectral Vanguard Platelegs"
+        ]
+    },
+    {
+        "name": "Black Spectral Vanguard Set",
+        "pieces": [
+            "Black Spectral Vanguard Helmet",
+            "Black Spectral Vanguard Platebody",
+            "Black Spectral Vanguard Platelegs"
+        ]
+    },
+    {
+        "name": "White Spectral Vanguard Set",
+        "pieces": [
+            "White Spectral Vanguard Helmet",
+            "White Spectral Vanguard Platebody",
+            "White Spectral Vanguard Platelegs"
+        ]
+    },
+    {
+        "name": "True Spectral Vanguard Set",
+        "pieces": [
+            "True Spectral Vanguard Helmet",
+            "True Spectral Vanguard Platebody",
+            "True Spectral Vanguard Platelegs"
+        ]
+    },
+    {
+        "name": "Fire Guild Knight Set",
+        "pieces": [
+            "Fire Guild Knight Helmet",
+            "Fire Guild Knight Platebody",
+            "Fire Guild Knight Platelegs"
+        ]
+    },
+    {
+        "name": "Water Guild Knight Set",
+        "pieces": [
+            "Water Guild Knight Helmet",
+            "Water Guild Knight Platebody",
+            "Water Guild Knight Platelegs"
+        ]
+    },
+    {
+        "name": "Temple Fool Set",
+        "pieces": [
+            "Temple Fool Head",
+            "Temple Fool Torso",
+            "Temple Fool Legs"
+        ]
+    },
+    {
+        "name": "Machine Rug Set",
+        "pieces": [
+            "Machine Rug Helmet",
+            "Machine Rug Platebody",
+            "Machine Rug Platelegs"
+        ]
+    },
+    {
+        "name": "Drillbit Set",
+        "pieces": [
+            "Mr. Techy Techy Head Protector",
+            "Broken Thumb Drillbit Emporium Chassis",
+            "Robotic Biological Chemistry Legs"
+        ]
+    },
+    {
+        "name": "Adventurer's Set",
+        "pieces": [
+            "Adventurer's Armor",
+            "Adventurer's Guard"
+        ]
+    },
+    {
+        "name": "Frog Costume #1 Set",
+        "pieces": [
+            "Frog Costume #1 - Head",
+            "Frog Costume #1 - Torso",
+            "Frog Costume #1 - Legs"
+        ]
+    },
+    {
+        "name": "Frog Costume #2 Set",
+        "pieces": [
+            "Frog Costume #2 - Head",
+            "Frog Costume #2 - Torso",
+            "Frog Costume #2 - Legs"
+        ]
+    },
+    {
+        "name": "Frog Costume #3 Set",
+        "pieces": [
+            "Frog Costume #3 - Head",
+            "Frog Costume #3 - Torso",
+            "Frog Costume #3 - Legs"
+        ]
+    },
+    {
+        "name": "Frog Costume #4 Set",
+        "pieces": [
+            "Frog Costume #4 - Head",
+            "Frog Costume #4 - Torso",
+            "Frog Costume #4 - Legs"
+        ]
+    },
+    {
+        "name": "Frog Costume #5 Set",
+        "pieces": [
+            "Frog Costume #5 - Head",
+            "Frog Costume #5 - Torso",
+            "Frog Costume #5 - Legs"
+        ]
+    }
+]
