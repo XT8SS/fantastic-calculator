@@ -108,6 +108,7 @@
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Seer's_Pendant_II"
     },
     {
+        "noStats": true,
         "name": "Shattered Blade Necklace",
         "stats": {
             "armor": 0,

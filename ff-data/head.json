@@ -1890,6 +1890,7 @@
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Magic_Fox_Headdress"
     },
     {
+        "noStats": true,
         "name": "Mining Helmet",
         "stats": {
             "armor": 0,
@@ -1908,6 +1909,7 @@
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mining_Helmet"
     },
     {
+        "noStats": true,
         "name": "Minion",
         "stats": {
             "armor": 0,
