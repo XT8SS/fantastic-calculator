@@ -14,6 +14,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 360,
+            "max": 360
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d6/Bronze_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Bronze"
     },
@@ -31,6 +35,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1400,
+            "max": 1400
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/74/Iron_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Iron"
@@ -50,6 +58,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 8900,
+            "max": 8900
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1a/Cobalt_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Cobalt"
     },
@@ -67,6 +79,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 35000,
+            "max": 35000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9b/Titanium_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Titanium"
@@ -86,6 +102,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 90000,
+            "max": 90000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/75/Gold_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Gold"
     },
@@ -103,6 +123,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 180000,
+            "max": 180000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/4a/Onyx_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Onyx"
@@ -122,6 +146,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 425000,
+            "max": 425000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/19/BlueWizardRobeTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Blue_Wizard_Set#Top"
     },
@@ -139,6 +167,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 180000,
+            "max": 180000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a1/Brash_Knight_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Brash_Knight_Set#Torso"
@@ -158,6 +190,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fe/CelestialMoonTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Celestial_Moon_Set#Top"
     },
@@ -175,6 +211,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 400000,
+            "max": 400000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/55/Courting_Knight_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Courting_Knight_Set#Torso"
@@ -194,6 +234,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 425000,
+            "max": 425000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/4c/DarkHunterTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dark_Hunter_Set#Top"
     },
@@ -211,6 +255,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1350000,
+            "max": 1350000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d6/Darkwood_Warrior_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Darkwood_Warrior_Set#Platebody"
@@ -230,6 +278,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2640000,
+            "max": 2640000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/59/FurnaceMummyPlatebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Furnace_Mummy_Set#Platebody"
     },
@@ -247,6 +299,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2640000,
+            "max": 2640000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/eb/GalaxyWizardTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Galaxy_Wizard_Set#Top"
@@ -266,6 +322,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 3850000,
+            "max": 3850000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/ad/GuardianTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Guardian_Set#Torso"
     },
@@ -283,6 +343,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 200000,
+            "max": 200000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2e/HardenedBronzePlatebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hardened_Bronze_Set#Platebody"
@@ -302,6 +366,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 105000,
+            "max": 105000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/44/Hedge_Knight_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hedge_Knight's_Set#Torso"
     },
@@ -319,6 +387,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 50000,
+            "max": 50000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f2/Illuminators_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Illuminator_Set#Top"
@@ -338,6 +410,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 400000,
+            "max": 400000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/50/Ivory_Chestpiece.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ivory_Set#Chestpiece"
     },
@@ -355,6 +431,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 250000,
+            "max": 250000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d3/Jade_Assassin's_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Jade_Assassin's_Set#Torso"
@@ -374,6 +454,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1230000,
+            "max": 1230000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/4a/LagoonSpiritTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Lagoon_Spirit_Set#Torso"
     },
@@ -391,6 +475,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 160000,
+            "max": 160000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/26/Mortmud_Wraps.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mortmud_Set#Chest"
@@ -410,6 +498,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 90000,
+            "max": 90000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7e/PatchedTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Patched_Set#Torso"
     },
@@ -427,6 +519,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2640000,
+            "max": 2640000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/60/Razed_General_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Razed_General_Set#Torso"
@@ -446,6 +542,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 425000,
+            "max": 425000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2f/RedWizardRobeTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Red_Wizard_Set#Top"
     },
@@ -463,6 +563,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 35000,
+            "max": 35000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/63/Riveted_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Riveted_Set#Torso"
@@ -482,6 +586,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 200000,
+            "max": 200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/39/Skeleton_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Skeleton_Set#Torso_"
     },
@@ -499,6 +607,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 180000,
+            "max": 180000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1f/SpikeoutChestpiece.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spikeout_Set#Chestpiece"
@@ -518,6 +630,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7e/Springtwig_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Springtwig_Set#Torso"
     },
@@ -535,6 +651,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1230000,
+            "max": 1230000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/06/TombProwlerTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tomb_Prowler_Set#Torso"
@@ -554,6 +674,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1350000,
+            "max": 1350000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0b/VoidMonsterTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Void_Monster_Set#Torso"
     },
@@ -571,6 +695,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 150000,
+            "max": 150000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/6b/Woodland_Ranger_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Woodland_Ranger_Set#Torso"
@@ -590,6 +718,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 850000,
+            "max": 850000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/56/ZhuuTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Zhuulaczar_Set#Armored_Body"
     },
@@ -607,6 +739,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2700000,
+            "max": 2700000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d4/Chasm_Magus_Robe_Top_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Chasm_Magus_Set#Top"
@@ -626,6 +762,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1200000,
+            "max": 1200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/10/Crabsuit_Top_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Crabsuit_Set#Top"
     },
@@ -643,6 +783,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 700000,
+            "max": 700000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/17/Gardendweller_Top_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gardendweller_Set#Top"
@@ -662,6 +806,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2700000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0a/Gauntlet_Fury_Platebody_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gauntlet_Fury_Set#Platebody"
     },
@@ -679,6 +827,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4400000,
+            "max": 4400000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/6a/Guild_Knight_Platebody_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Guild_Knight_Set#Platebody"
@@ -698,6 +850,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2450000,
+            "max": 2600000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8c/Knight's_Army_Platebody_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Knight's_Army_Set#Platebody"
     },
@@ -715,6 +871,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 3000000,
+            "max": 3000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/52/Odewig's_Armor_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Odewig_Set#Torso"
@@ -734,6 +894,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4200000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/14/Pettyganger's_Parade_Suit_Top_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pettyganger's_Parade_Set#Top"
     },
@@ -751,6 +915,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2800000,
+            "max": 2800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/77/Poison_Construct_Torso_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Poison_Construct_Set#Torso"
@@ -770,6 +938,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 3200000,
+            "max": 3500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/32/Rotted_King's_Torso_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Rotted_King's_Set#Chestpiece"
     },
@@ -787,6 +959,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2400000,
+            "max": 2400000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/64/Spellbound_Mage_Battledress_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spellbound_Mage_Set#Battledress"
@@ -806,6 +982,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/6c/The_Earth_King_Regalia_Platebody_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Earth_King_Regalia_Set#Platebody"
     },
@@ -823,6 +1003,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4500000,
+            "max": 5000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/73/The_Armor_of_Forgotten_Things_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Forgotten_Things_Set#Armor"
@@ -842,6 +1026,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a2/The_Vengeful_Visage_Top_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Vengeful_Visage_Set#Top"
     },
@@ -859,6 +1047,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 3200000,
+            "max": 3200000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1a/Tower_Armor_Platebody_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tower_Armor_Set#Platebody"
@@ -878,6 +1070,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/ad/Void_Lord_Chestpiece_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Void_Lord_Set#Chestpiece"
     },
@@ -895,6 +1091,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2800000,
+            "max": 2800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7f/Wolfram_Leader_Platebody_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Wolfram_Leader_Set#Platebody"
@@ -914,6 +1114,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8a/World_Sculptor_Armor_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/World_Sculptor_Set#Armor"
     },
@@ -931,6 +1135,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/dd/Aquatic_Explorer_Armor_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Aquatic_Explorer_Set#Armor"
@@ -950,6 +1158,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3e/Platebody_of_a_Forgotten_Life_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Forgotten_Life_Set#Platebody"
     },
@@ -967,6 +1179,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4200000,
+            "max": 4200000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fd/New_Voice_Platebody_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/New_Voice_Set#Platebody"
@@ -986,6 +1202,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/68/Romo_Torso_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Romo_Set#Torso"
     },
@@ -1003,6 +1223,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/83/Wisecrack_Torso_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Wisecrack_Set#Torso"
@@ -1022,6 +1246,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f2/Woodwhack_Legionnaire_Chestpiece_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Woodwhack_Legionnaire_Set#Chestpiece"
     },
@@ -1039,6 +1267,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5200000,
+            "max": 5500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7d/BedrockPlatebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bedrock_Set#Platebody"
@@ -1058,6 +1290,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 7000000,
+            "max": 7000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d5/CorruptGoldChestplate.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Corrupted_Gold_Set#Platebody"
     },
@@ -1075,6 +1311,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2500000,
+            "max": 7000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/05/CorruptOnyxChestplate.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Corrupted_Onyx_Set#Platebody"
@@ -1094,6 +1334,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a6/CourtJesterShirt.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Court_Jester_Set#Shirt"
     },
@@ -1111,6 +1355,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": null,
+            "max": null
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9c/FallingLightMageRobeTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Falling_Light_Set#Robe_Top"
@@ -1130,6 +1378,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0d/FireSpellboundMageTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Fire_Spellbound_Mage_Set#Top"
     },
@@ -1147,6 +1399,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 7500000,
+            "max": 7500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c3/GMPlatebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Guttermouth_Set#Platebody"
@@ -1166,6 +1422,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/4f/IceSpellboundMageTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ice_Spellbound_Mage_Set#Top"
     },
@@ -1183,6 +1443,10 @@
             "jumpPower": 0,
             "ammoReturn": 5,
             "height": 0
+        },
+        "cost": {
+            "min": 5800000,
+            "max": 6000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f4/NightmareProwlerTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Nightmare_Prowler_Set#Torso"
@@ -1202,6 +1466,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5d/PLT.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pantry_Leech_Set#Torso"
     },
@@ -1219,6 +1487,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/82/RisingDarkMageRobeTop.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Rising_Dark_Set#Robe_Top"
@@ -1238,6 +1510,10 @@
             "ammoReturn": 3,
             "height": 0
         },
+        "cost": {
+            "min": 20000000,
+            "max": 20000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/21/RoadblocksTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Roadblocks_Set#Torso"
     },
@@ -1255,6 +1531,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": null,
+            "max": null
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/ce/TheDrake'sShirt.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Drake's_Set#Shirt"
@@ -1274,6 +1554,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f2/U-LifePlatebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/U-Life_Set#Platebody"
     },
@@ -1291,6 +1575,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5500000,
+            "max": 5500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/ca/WiredFuryPlatebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Wired_Fury_Set#Platebody"
@@ -1310,6 +1598,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b2/GreenSVTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Green"
     },
@@ -1327,6 +1619,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b2/BlueSVTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Blue"
@@ -1346,6 +1642,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2600000,
+            "max": 2600000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/63/PurpleSVTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Purple"
     },
@@ -1363,6 +1663,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 6500000,
+            "max": 6500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/03/BlackSVTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Black"
@@ -1382,6 +1686,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 6500000,
+            "max": 6500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/4b/WhiteSVTorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#White"
     },
@@ -1399,6 +1707,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2e/TrueSVtorso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#True"
@@ -1418,6 +1730,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 4800000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/12/Fire_Guild_Knight_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Fire_Guild_Knight_Set#Platebody"
     },
@@ -1435,6 +1751,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4800000,
+            "max": 4800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/17/Water_Guildknight_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Water_Guild_Knight_Set#Platebody"
@@ -1454,6 +1774,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5200000,
+            "max": 5200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/20/Temple_Fool_Torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Temple_Fool_Set#Torso"
     },
@@ -1471,6 +1795,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/bd/Machine_Rug_Platebody.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Machine_Rug_Set#Platebody"
@@ -1490,6 +1818,10 @@
             "ammoReturn": 20,
             "height": 0
         },
+        "cost": {
+            "min": 25000000,
+            "max": 25000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c7/Drillbit_Chassis.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Drillbit_Set#Chassis"
     },
@@ -1507,6 +1839,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5400000,
+            "max": 5400000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c1/Adventurer's_Armor.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Adventurer's_Armor_Set#Armor"
@@ -1526,6 +1862,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 180000,
+            "max": 180000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/62/Bandolier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bandolier"
     },
@@ -1543,6 +1883,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 100000000,
+            "max": 100000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/ae/EnormousHugeBill.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Enormous_Huge_Bill"
@@ -1562,6 +1906,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/bd/Green-BlackJacket.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Green-Black_Jacket"
     },
@@ -1579,6 +1927,10 @@
             "jumpPower": 3,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/98/Frog1torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#1"
@@ -1598,6 +1950,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/ba/Frog2torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#2"
     },
@@ -1615,6 +1971,10 @@
             "jumpPower": 9,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 3500000,
+            "max": 3500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/03/Frog3torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#3"
@@ -1634,6 +1994,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/19/Frog4torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#4"
     },
@@ -1651,6 +2015,10 @@
             "jumpPower": 15,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/16/Frog5torso.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#5"

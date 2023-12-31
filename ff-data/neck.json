@@ -14,6 +14,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 120000,
+            "max": 120000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/da/Blue_Eye_Amulet.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Blue_Eye_Amulet"
     },
@@ -31,6 +35,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 500000,
+            "max": 500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/32/Green_Crystal_Amulet.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Green_Crystal_Amulet"
@@ -50,6 +58,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 225000,
+            "max": 225000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fc/Peapod_Necklace.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Peapod_Necklace"
     },
@@ -67,6 +79,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": null,
+            "max": null
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e3/Radiant_Medallion.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Radiant_Medallion"
@@ -86,6 +102,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 25000,
+            "max": 25000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d9/Seer's_Pendant_I.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Seer's_Pendant_I"
     },
@@ -103,6 +123,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 150000,
+            "max": 150000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/bf/Seer's_Pendant_II.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Seer's_Pendant_II"
@@ -123,6 +147,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1500000,
+            "max": 1500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/33/ShatteredBladeNecklace.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Shattered_Blade_Necklace"
     },
@@ -141,6 +169,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 555000,
+            "max": 555000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/73/Tri-Color_Necklace.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tri-Color_Necklace"
     },
@@ -158,6 +190,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1200000,
+            "max": 1200000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/94/Vital_Pendant.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Vital_Pendant"

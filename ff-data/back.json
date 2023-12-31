@@ -15,6 +15,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/6f/Angel_Wings.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Angel_Wings"
     },
@@ -34,6 +38,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/46/Dark_Angel_Wings.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dark_Angel_Wings"
     },
@@ -51,6 +59,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 744000,
+            "max": 744000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/6e/Dreamnet.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dreamnet"
@@ -70,6 +82,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1100000,
+            "max": 1100000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cf/EmperorCape.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Emperor's_Cape"
     },
@@ -87,6 +103,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 700000,
+            "max": 750000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/bc/Eyes_of_the_Sword_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Eyes_of_the_Sword"
@@ -106,6 +126,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1800000,
+            "max": 1800000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/15/MeetingRemnant-0.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Meeting_Remnant"
     },
@@ -123,6 +147,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 700000,
+            "max": 755000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/73/Ranger's_Backpack_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ranger's_Backpack"

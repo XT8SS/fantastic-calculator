@@ -14,6 +14,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 550000,
+            "max": 550000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8f/Ancient_Horns.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ancient_Dragon_Horns"
     },
@@ -31,6 +35,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 20000,
+            "max": 20000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e4/Antennae.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Antennae"
@@ -50,6 +58,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/45/Antler.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Antlers"
     },
@@ -67,6 +79,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 505000,
+            "max": 505000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d7/Big_Orange_Eyes_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Big_Orange_Eyes"
@@ -86,6 +102,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/63/BlackAntlers.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Black_Antlers"
     },
@@ -103,6 +123,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 500000,
+            "max": 500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c0/BrainMonocle.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Brain_Monocle"
@@ -122,6 +146,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5c/BunnyEars.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bunny_Ears"
     },
@@ -139,6 +167,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 50000,
+            "max": 50000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/50/EnchantedSpectacles.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Enchanted_Spectacles"
@@ -158,6 +190,10 @@
             "ammoReturn": 50,
             "height": 0
         },
+        "cost": {
+            "min": 1200000,
+            "max": 1200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/20/FrontBulletPack.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Front_Bullet_Pack"
     },
@@ -175,6 +211,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": null,
+            "max": null
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e7/GoldAntlers.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gold_Antlers"
@@ -194,6 +234,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0b/PirateHook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pirate_Hook"
     },
@@ -211,6 +255,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 50000,
+            "max": 50000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/71/RangerSpectacles.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ranger_Spectacles"
@@ -230,6 +278,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 100000,
+            "max": 100000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3b/Shades.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Shades"
     },
@@ -247,6 +299,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 15000,
+            "max": 15000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3d/Spectacles.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectacles"
@@ -266,6 +322,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 220000,
+            "max": 250000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/04/Spooky_Grin.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spooky_Grin"
     },
@@ -284,6 +344,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 485000,
+            "max": 500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/91/Xenoculous_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Xenoculous"
     },
@@ -301,6 +365,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 800000,
+            "max": 800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/21/Yaaxil_Crest_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Yaaxil_Crest"

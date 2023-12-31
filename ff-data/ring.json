@@ -14,6 +14,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 85000,
+            "max": 85000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/83/Coral_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Coral_Ring"
     },
@@ -31,6 +35,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 750000,
+            "max": 750000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/07/Hightower_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hightower_Ring"
@@ -50,6 +58,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 500000,
+            "max": 500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a9/Mud_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mud_Ring"
     },
@@ -67,6 +79,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e0/Ring_of_Power.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ring_of_Power"
@@ -86,6 +102,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9e/Ring_of_the_Five_Knights.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ring_of_the_Five_Knights"
     },
@@ -103,6 +123,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/01/Scorched_Soul's_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Scorched_Soul's_Ring"
@@ -122,6 +146,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 880000,
+            "max": 880000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9f/Strange_Creature_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Strange_Creature_Ring"
     },
@@ -139,6 +167,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 100000,
+            "max": 100000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1b/Tough_Green_Ring.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tough_Green_Ring"

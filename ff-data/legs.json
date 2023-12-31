@@ -14,6 +14,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 280,
+            "max": 280
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2e/Bronze_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Bronze"
     },
@@ -31,6 +35,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1100,
+            "max": 1100
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f2/Iron_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Iron"
@@ -50,6 +58,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 7100,
+            "max": 7100
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/51/Cobalt_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Cobalt"
     },
@@ -67,6 +79,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 28000,
+            "max": 28000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cc/Titatnium_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Titanium"
@@ -86,6 +102,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 70000,
+            "max": 70000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b3/Gold_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Gold"
     },
@@ -103,6 +123,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 140000,
+            "max": 140000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/93/Onyx_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ore-Based_Armor_Sets#Onyx"
@@ -122,6 +146,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 340000,
+            "max": 340000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/db/BlueWizardRobeBottom.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Blue_Wizard_Set#Bottom"
     },
@@ -139,6 +167,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 140000,
+            "max": 140000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/03/Brash_Knight_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Brash_Knight_Set#Legs"
@@ -158,6 +190,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 840000,
+            "max": 840000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/bc/CelestialMoonRobeBottom.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Celestial_Moon_Set#Robe_Bottom"
     },
@@ -175,6 +211,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 280000,
+            "max": 280000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/39/Courting_Knight_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Courting_Knight_Set#Legs"
@@ -194,6 +234,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 340000,
+            "max": 340000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/78/DarkHunterLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dark_Hunter_Set#Legs"
     },
@@ -211,6 +255,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e0/Darkwood_Warrior_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Darkwood_Warrior_Set#Platelegs"
@@ -230,6 +278,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2100000,
+            "max": 2100000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2d/FurnaceMummyPlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Furnace_Mummy_Set#Platelegs"
     },
@@ -247,6 +299,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2100000,
+            "max": 2100000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/ae/GalaxyWizardLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Galaxy_Wizard_Set#Bottom"
@@ -266,6 +322,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 3000000,
+            "max": 3000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1f/GuardianLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Guardian_Set#Legs"
     },
@@ -283,6 +343,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 160000,
+            "max": 160000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/eb/HardenedBronzePlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hardened_Bronze_Set#Platelegs"
@@ -302,6 +366,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 85000,
+            "max": 85000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9a/Hedge_Knight_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hedge_Knight's_Set#Legs"
     },
@@ -319,6 +387,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 50000,
+            "max": 50000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b8/Illuminators_Pants.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Illuminator_Set#Pants"
@@ -338,6 +410,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 500000,
+            "max": 500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7f/Ivory_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ivory_Set#Legs"
     },
@@ -355,6 +431,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 190000,
+            "max": 190000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/ea/Jade_Assassin's_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Jade_Assassin's_Set#Legs"
@@ -374,6 +454,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 980000,
+            "max": 980000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d4/LagoonSpiritLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Lagoon_Spirit_Set#Legs"
     },
@@ -391,6 +475,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 120000,
+            "max": 120000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/03/Mortmud_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mortmud_Set#Legs"
@@ -410,6 +498,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 70000,
+            "max": 70000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8f/PatchedLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Patched_Set#Legs"
     },
@@ -427,6 +519,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2100000,
+            "max": 2100000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/91/Razed_General_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Razed_General_Set#Legs"
@@ -446,6 +542,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 340000,
+            "max": 340000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2d/RedWizardRobeBottom.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Red_Wizard_Set#Bottom"
     },
@@ -463,6 +563,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 28000,
+            "max": 28000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/4c/Riveted_Shorts.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Riveted_Set#Shorts"
@@ -482,6 +586,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 200000,
+            "max": 200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c0/Skeleton_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Skeleton_Set#Legs_"
     },
@@ -499,6 +607,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 140000,
+            "max": 140000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/ff/SpikeoutLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spikeout_Set#Legs"
@@ -518,6 +630,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b4/Springtwig_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Springtwig_Set#Legs"
     },
@@ -535,6 +651,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 980000,
+            "max": 980000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/99/TombProwlerLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tomb_Prowler_Set#Legs"
@@ -554,6 +674,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1e/VoidMonsterLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Void_Monster_Set#Legs"
     },
@@ -571,6 +695,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 120000,
+            "max": 120000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/19/Woodland_Ranger_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Woodland_Ranger_Set#Legs"
@@ -590,6 +718,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 300000,
+            "max": 300000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d5/ZhuuLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Zhuulaczar_Set#Legs"
     },
@@ -607,6 +739,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2200000,
+            "max": 2200000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e2/Chasm_Magus_Robe_Bottom_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Chasm_Magus_Set#Bottom"
@@ -626,6 +762,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/73/Crabsuit_Legs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Crabsuit_Set#Legs"
     },
@@ -643,6 +783,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 480000,
+            "max": 480000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/72/Gardendweller_Pants_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gardendweller_Set#Pants"
@@ -662,6 +806,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2050000,
+            "max": 2200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/db/Gauntlet_Fury_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gauntlet_Fury_Set#Platelegs"
     },
@@ -679,6 +827,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 3800000,
+            "max": 3800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d1/Guild_Knight_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Guild_Knight_Set#Platelegs"
@@ -698,6 +850,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2150000,
+            "max": 2400000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/48/Knight's_Army_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Knight's_Army_Set#Platelegs"
     },
@@ -715,6 +871,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9e/Odewig's_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Odewig_Set#Platelegs"
@@ -734,6 +894,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4200000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/54/Pettyganger's_Parade_Legwarmers_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pettyganger's_Parade_Set#Legwarmers"
     },
@@ -751,6 +915,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2400000,
+            "max": 2400000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/ca/Poison_Construct_Legs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Poison_Construct_Set#Legs"
@@ -770,6 +938,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 3200000,
+            "max": 3500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/30/Rotted_King's_Escort_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Rotted_King's_Set#Escort"
     },
@@ -787,6 +959,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2000000,
+            "max": 2000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/12/Spellbound_Mage_Battleskirt_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spellbound_Mage_Set#Battleskirt"
@@ -806,6 +982,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0e/The_Earth_King_Regalia_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Earth_King_Regalia_Set#Platelegs"
     },
@@ -823,6 +1003,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4500000,
+            "max": 5000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9a/The_Platelegs_of_Forgotten_Things_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Forgotten_Things_Set#Platelegs"
@@ -842,6 +1026,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2200000,
+            "max": 2200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/44/The_Vengeful_Visage_Bottoms_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Vengeful_Visage_Set#Bottoms"
     },
@@ -859,6 +1047,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2800000,
+            "max": 2800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1d/Tower_Armor_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tower_Armor_Set#Platelegs"
@@ -878,6 +1070,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5d/Void_Lord_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Void_Lord_Set#Platelegs"
     },
@@ -895,6 +1091,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2400000,
+            "max": 2400000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d7/Wolfram_Leader_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Wolfram_Leader_Set#Platelegs"
@@ -914,6 +1114,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/22/World_Sculptor_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/World_Sculptor_Set#Platelegs"
     },
@@ -931,6 +1135,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 3800000,
+            "max": 3800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1f/Aquatic_Explorer_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Aquatic_Explorer_Set#Platelegs"
@@ -950,6 +1158,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 6000000,
+            "max": 6000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1d/Platelegs_of_a_Forgotten_Life_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Forgotten_Life_Set#Platelegs"
     },
@@ -967,6 +1179,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/74/New_Voice_Platelegs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/New_Voice_Set#Platelegs"
@@ -986,6 +1202,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 7500000,
+            "max": 7500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9f/Romo_Robo-Legs_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Romo_Set#Robo-Legs"
     },
@@ -1003,6 +1223,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/03/Wisecrack_Leggings_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Wisecrack_Set#Leggings"
@@ -1022,6 +1246,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2200000,
+            "max": 2200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/14/Wooden_Shorts_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Woodwhack_Legionnaire_Set#Shorts"
     },
@@ -1039,6 +1267,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5200000,
+            "max": 5500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/46/BedrockPlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bedrock_Set#Platelegs"
@@ -1058,6 +1290,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 7000000,
+            "max": 7000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/de/CorruptGoldPlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Corrupted_Gold_Set#Platelegs"
     },
@@ -1075,6 +1311,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2500000,
+            "max": 7000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/07/CorruptOnyxPlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Corrupted_Onyx_Set#Platelegs"
@@ -1094,6 +1334,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/36/CourtJesterPants.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Court_Jester_Set#Pants"
     },
@@ -1111,6 +1355,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": null,
+            "max": null
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/85/FallingLightMageRobeBottoms.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Falling_Light_Set#Robe_Bottoms"
@@ -1130,6 +1378,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/10/FireSpellboundMageSkirt.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Fire_Spellbound_Mage_Set#Skirt"
     },
@@ -1147,6 +1399,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 7500000,
+            "max": 7500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/10/GMPlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Guttermouth_Set#Platelegs"
@@ -1166,6 +1422,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4000000,
+            "max": 4000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/01/IceSpellboundMageSkirt.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ice_Spellbound_Mage_Set#Skirt"
     },
@@ -1183,6 +1443,10 @@
             "jumpPower": 0,
             "ammoReturn": 5,
             "height": 0
+        },
+        "cost": {
+            "min": 5800000,
+            "max": 6000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c1/NightmareProwlerLeggings.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Nightmare_Prowler_Set#Legs"
@@ -1202,6 +1466,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/28/PLL.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pantry_Leech_Set#Platelegs"
     },
@@ -1219,6 +1487,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cd/RisingDarkMageRobeBottoms.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Rising_Dark_Set#Robe_Bottoms"
@@ -1238,6 +1510,10 @@
             "ammoReturn": 3,
             "height": 0
         },
+        "cost": {
+            "min": 20000000,
+            "max": 20000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/89/RoadblocksLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Roadblocks_Set#Legs"
     },
@@ -1255,6 +1531,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": null,
+            "max": null
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/ba/TheDrake'sPants.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Drake's_Set#Pants"
@@ -1274,6 +1554,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fd/U-LifePlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/U-Life_Set#Platelegs"
     },
@@ -1291,6 +1575,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5500000,
+            "max": 5500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d7/WiredFuryPlatelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Wired_Fury_Set#Platelegs"
@@ -1310,6 +1598,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/66/GreenSVLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Green"
     },
@@ -1327,6 +1619,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a8/BlueSVLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Blue"
@@ -1346,6 +1642,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 2600000,
+            "max": 2600000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/47/PurpleSVLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Purple"
     },
@@ -1363,6 +1663,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 6500000,
+            "max": 6500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/74/BlackSVLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#Black"
@@ -1382,6 +1686,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 6500000,
+            "max": 6500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8c/WhiteSVLegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#White"
     },
@@ -1399,6 +1707,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8a/TrueSVlegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Spectral_Vanguard_Armor_Sets#True"
@@ -1418,6 +1730,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 4800000,
+            "max": 4800000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2c/Fire_Guild_Knight_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Fire_Guild_Knight_Set#Platelegs"
     },
@@ -1435,6 +1751,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 4800000,
+            "max": 4800000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5b/Water_Guild_Knight_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Water_Guild_Knight_Set#Platelegs"
@@ -1454,6 +1774,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5200000,
+            "max": 5200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/bf/Temple_Fool_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Temple_Fool_Set#Legs"
     },
@@ -1471,6 +1795,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/16/Machine_Rug_Platelegs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Machine_Rug_Set#Platelegs"
@@ -1490,6 +1818,10 @@
             "ammoReturn": 20,
             "height": 0
         },
+        "cost": {
+            "min": 25000000,
+            "max": 25000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e4/Drillbit_Legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Drillbit_Set#Legs"
     },
@@ -1507,6 +1839,10 @@
             "jumpPower": 0,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5400000,
+            "max": 5400000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/82/Adventurer's_Guard.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Adventurer's_Armor_Set#Guard"
@@ -1526,6 +1862,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 1000000,
+            "max": 1000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f8/Frog1legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#1"
     },
@@ -1543,6 +1883,10 @@
             "jumpPower": 6,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/86/Frog2legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#2"
@@ -1562,6 +1906,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 3500000,
+            "max": 3500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/84/Frog3legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#3"
     },
@@ -1580,6 +1928,10 @@
             "ammoReturn": 0,
             "height": 0
         },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/78/Frog4legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#4"
     },
@@ -1597,6 +1949,10 @@
             "jumpPower": 15,
             "ammoReturn": 0,
             "height": 0
+        },
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
         },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/93/Frog5legs.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frog_Costumes#Frog_Costume_#5"
