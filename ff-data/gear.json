@@ -3,6 +3,10 @@
         "tool": true,
         "name": "Mushroom Parasol",
         "description": "A parasol that slows the user's fall while held.",
+        "cost": {
+            "min": 250000,
+            "max": 250000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/53/Mushroom_Parasol_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mushroom_Parasol"
     },
@@ -28,6 +32,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 6200000,
+            "max": 6600000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e6/Blade_of_the_Throne.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Blade_of_the_Throne"
     },
@@ -59,6 +67,10 @@
                 "mult": 3
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e0/BrainStaff.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Brainstaff"
     },
@@ -90,6 +102,10 @@
                 "mult": 4.8
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fe/CelestialSpellbook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Celestial_Powers_Spellbook"
     },
@@ -133,6 +149,10 @@
                 "mult": 5.25
             }
         ],
+        "cost": {
+            "min": 1200000,
+            "max": 1200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b9/DarktoadSpellbook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Darktoad_Spellbook"
     },
@@ -158,6 +178,10 @@
                 "mult": 2.5
             }
         ],
+        "cost": {
+            "min": 875000,
+            "max": 875000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/b/b3/FiresoulSpellbook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Firesoul_Spellbook"
     },
@@ -189,6 +213,10 @@
                 "mult": 1.5
             }
         ],
+        "cost": {
+            "min": 15000000,
+            "max": 15000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a6/Frontier_Spellbook_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frontier_Spellbook"
     },
@@ -214,6 +242,10 @@
                 "mult": 3
             }
         ],
+        "cost": {
+            "min": 3400000,
+            "max": 3400000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/46/StormsSpellbook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Greater_Storms_Spellbook"
     },
@@ -245,6 +277,10 @@
                 "mult": 2.5
             }
         ],
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/13/Nature's_Wrath_Spellbook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Nature's_Wrath_Spellbook"
     },
@@ -270,6 +306,10 @@
                 "mult": 3.1
             }
         ],
+        "cost": {
+            "min": 13000000,
+            "max": 15000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c8/StaffofDreams-0.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Staff_of_Dreams"
     },
@@ -301,6 +341,10 @@
                 "mult": 12.5
             }
         ],
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/02/JunkSpellbook.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Wicked_Junk_Spellbook"
     },
@@ -319,6 +363,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 390,
+            "max": 390
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a0/Bronze_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bronze_Dagger"
     },
@@ -337,6 +385,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 800,
+            "max": 800
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d9/Bronze_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bronze_Greatsword"
     },
@@ -355,6 +407,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 600,
+            "max": 600
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0c/Bronze_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bronze_Rapier"
     },
@@ -373,6 +429,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 600,
+            "max": 600
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/49/Bronze_Scimitar.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Bronze_Scimitar"
     },
@@ -391,6 +451,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 1600,
+            "max": 1600
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3a/Iron_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Iron_Dagger"
     },
@@ -409,6 +473,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 3100,
+            "max": 3100
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/9b/Iron_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Iron_Greatsword"
     },
@@ -427,6 +495,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 2400,
+            "max": 2400
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c1/Iron_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Iron_Rapier"
     },
@@ -445,6 +517,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 2400,
+            "max": 2400
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fa/Iron_Scimitar.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Iron_Scimitar"
     },
@@ -463,6 +539,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 9800,
+            "max": 9800
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1e/Cobalt_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Cobalt_Dagger"
     },
@@ -481,6 +561,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 20000,
+            "max": 20000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/27/Cobalt_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Cobalt_Greatsword"
     },
@@ -499,6 +583,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 14800,
+            "max": 14800
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/35/Cobalt_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Cobalt_Rapier"
     },
@@ -517,6 +605,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 14800,
+            "max": 14800
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/53/Cobalt_Scimitar.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Cobalt_Scimitar"
     },
@@ -535,6 +627,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 39000,
+            "max": 39000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/6/67/Titanium_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Titanium_Dagger"
     },
@@ -553,6 +649,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 78000,
+            "max": 78000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e7/Titanium_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Titanium_Greatsword"
     },
@@ -571,6 +671,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 60000,
+            "max": 60000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7f/Titanium_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Titanium_Rapier"
     },
@@ -589,6 +693,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 60000,
+            "max": 60000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e7/Titanium_Scimitar.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Titanium_Scimitar"
     },
@@ -607,6 +715,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 97000,
+            "max": 97000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/02/Gold_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gold_Dagger"
     },
@@ -625,6 +737,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 190000,
+            "max": 190000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/77/Gold_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gold_Greatsword"
     },
@@ -643,6 +759,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 150000,
+            "max": 150000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c7/Gold_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gold_Rapier"
     },
@@ -661,6 +781,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 150000,
+            "max": 150000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/75/Gold_Scimitar.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gold_Scimitar"
     },
@@ -679,6 +803,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 200000,
+            "max": 200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/19/Onyx_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Onyx_Dagger"
     },
@@ -697,6 +825,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 380000,
+            "max": 380000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/97/Onyx_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Onyx_Greatsword"
     },
@@ -715,6 +847,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 300000,
+            "max": 300000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cf/Onyx_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Onyx_Rapier"
     },
@@ -733,6 +869,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 300000,
+            "max": 300000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/70/Onyx_Scimitar.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Onyx_Scimitar"
     },
@@ -758,6 +898,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 700000,
+            "max": 700000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c1/Advanced_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Advanced_Rapier"
     },
@@ -776,6 +920,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 290000,
+            "max": 290000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/76/Ancient_Sword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ancient_Sword"
     },
@@ -801,6 +949,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 2100000,
+            "max": 2100000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5b/Ancient_Treesword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ancient_Treesword"
     },
@@ -826,6 +978,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c3/Angel_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Angel_Greatsword"
     },
@@ -844,6 +1000,10 @@
                 "mult": 1.4
             }
         ],
+        "cost": {
+            "min": 500000,
+            "max": 500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cd/Blacksmith's_Hammer.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Blacksmith's_Hammer"
     },
@@ -862,6 +1022,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 400000,
+            "max": 400000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fa/Buzzing_Sword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Buzzing_Sword"
     },
@@ -880,6 +1044,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 465000,
+            "max": 465000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0b/Contramagic_Blade.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Contramagic_Blade"
     },
@@ -905,6 +1073,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 2100000,
+            "max": 2100000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1f/Corrupted_Rapier-0.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Corrupted_Rapier"
     },
@@ -942,6 +1114,10 @@
                 "mult": 2
             }
         ],
+        "cost": {
+            "min": 5500000,
+            "max": 6000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e1/Crypt_Blade.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Crypt_Blade"
     },
@@ -980,6 +1156,10 @@
                 "meleeDmgMult": 1
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3e/Demon_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Demon_Greatsword"
     },
@@ -1005,6 +1185,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2e/Fantastic_Sword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Fantastic_Greatsword"
     },
@@ -1036,6 +1220,10 @@
                 "mult": 2
             }
         ],
+        "cost": {
+            "min": 220000,
+            "max": 220000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/16/Featherblade.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Featherblade"
     },
@@ -1054,6 +1242,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 8,
+            "max": 8
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d2/Frail_Wooden_Sword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frail_Wooden_Sword"
     },
@@ -1100,6 +1292,10 @@
                 "meleeDmgMult": 2.2
             }
         ],
+        "cost": {
+            "min": 15000000,
+            "max": 15000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/27/Frontier_Greatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frontier_Greatsword"
     },
@@ -1125,6 +1321,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 660000,
+            "max": 660000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a1/Grandsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Grandsword"
     },
@@ -1143,6 +1343,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 300000,
+            "max": 300000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/4/4e/Grass_Rapier.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Grass_Rapier"
     },
@@ -1174,6 +1378,10 @@
                 "mult": 6.45
             }
         ],
+        "cost": {
+            "min": 200000,
+            "max": 200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/05/Great_Scimitar.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Great_Scimitar"
     },
@@ -1192,6 +1400,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 350000,
+            "max": 350000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/75/Hammer_Knight's_Hammer.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hammer_Knight's_Hammer"
     },
@@ -1236,6 +1448,10 @@
                 "meleeDmgMult": 1
             }
         ],
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e4/SwordofJustice.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Honoring_Blade"
     },
@@ -1267,6 +1483,10 @@
                 "mult": 2
             }
         ],
+        "cost": {
+            "min": 290000,
+            "max": 290000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fc/Hooked_Scythe.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hook_Scythe"
     },
@@ -1285,6 +1505,10 @@
                 "mult": 1.4
             }
         ],
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/d/d4/Inferno_Hammer.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Inferno_Hammer"
     },
@@ -1303,6 +1527,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 320000,
+            "max": 320000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/29/Inferno_Sword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Inferno_Sword"
     },
@@ -1328,6 +1556,10 @@
                 "mult": 2
             }
         ],
+        "cost": {
+            "min": 3000000,
+            "max": 3000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/f2/Jade_Superhammer.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Jade_Superhammer"
     },
@@ -1353,6 +1585,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 770000,
+            "max": 770000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a9/Kotono.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Kotono"
     },
@@ -1378,6 +1614,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 720000,
+            "max": 720000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/56/Power_Axe.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Power_Axe"
     },
@@ -1409,6 +1649,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c1/RedKingGreatsword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Red_King_Greatsword"
     },
@@ -1434,6 +1678,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/78/PowerFists.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Red_Power_Fists"
     },
@@ -1465,6 +1713,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 2200000,
+            "max": 2200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/23/Rusted_Coin_Scythe.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Rusted_Coin_Scythe"
     },
@@ -1502,6 +1754,10 @@
                 "mult": 2
             }
         ],
+        "cost": {
+            "min": 15000000,
+            "max": 15000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e7/Tri-Blade.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Tri-Blade_Shifter"
     },
@@ -1527,6 +1783,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 1200000,
+            "max": 1200000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/77/Ultrablade.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ultrablade"
     },
@@ -1552,6 +1812,10 @@
                 "mult": 1.5
             }
         ],
+        "cost": {
+            "min": 555000,
+            "max": 555000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/3/3c/Whapper_Sword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Whapper_Sword"
     },
@@ -1577,6 +1841,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 2400000,
+            "max": 2400000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/cf/Zod_Sword.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Zodsword"
     },
@@ -1601,6 +1869,10 @@
                 "base": 935
             }
         ],
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/98/VoidSpikeUltradagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Void_Spike_Ultradagger"
     },
@@ -1632,6 +1904,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 10000,
+            "max": 10000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/79/Crossbow.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Crossbow"
     },
@@ -1657,6 +1933,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c6/Dragon_King's_Lance.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Dragon_King's_Lance"
     },
@@ -1675,6 +1955,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 15000000,
+            "max": 15000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/18/Frontier_Stargun.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Frontier_Stargun"
     },
@@ -1700,6 +1984,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 7070000,
+            "max": 7770000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/50/Funky_Driftlander.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Funky_Driftlander"
     },
@@ -1718,6 +2006,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 5000000,
+            "max": 5000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/a/a4/Gilded_Rifle.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gilded_Rifle"
     },
@@ -1743,6 +2035,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 8000000,
+            "max": 8000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c6/GunFists.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gunfists"
     },
@@ -1761,6 +2057,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 700000,
+            "max": 700000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e3/Hunter_Rifle.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Hunting_Rifle"
     },
@@ -1779,6 +2079,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 1800000,
+            "max": 1800000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/eb/Marksman_Rifle.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Marksman's_Rifle"
     },
@@ -1797,6 +2101,10 @@
                 "mult": 0.2
             }
         ],
+        "cost": {
+            "min": 5000,
+            "max": 5000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/7/7c/Pellet_Gun.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pellet_Gun"
     },
@@ -1815,6 +2123,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 450000,
+            "max": 450000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/50/Pipe_Rifle.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pipe_Rifle"
     },
@@ -1840,6 +2152,10 @@
                 "mult": 1
             }
         ],
+        "cost": {
+            "min": 25000000,
+            "max": 25000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/0/0b/RatboyHandgun.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Ratboy_Handgun"
     },
@@ -1867,6 +2183,10 @@
                 "rangedDmgMult": 0.5
             }
         ],
+        "cost": {
+            "min": 7000000,
+            "max": 7000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/95/TheJadeTwin.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/The_Jade_Twin"
     },
@@ -1894,6 +2214,10 @@
                 "meleeDmgMult": 0.5
             }
         ],
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/ce/Eyeball_of_Reckoning_Ultradagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Eyeball_of_Reckoning_Ultradagger"
     },
@@ -1919,6 +2243,10 @@
                 "base": 87.5
             }
         ],
+        "cost": {
+            "min": 6600000,
+            "max": 6600000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5b/Pureblood_Dagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Pureblood_Dagger"
     },
@@ -1946,6 +2274,10 @@
                 "meleeDmgMult": 0.5
             }
         ],
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/8/8a/SilverCystalUltradagger.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Silver_Crystal_Ultradagger"
     },
@@ -1975,6 +2307,10 @@
                 "rangedDmgMult": 0.2
             }
         ],
+        "cost": {
+            "min": 500000,
+            "max": 500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/90/Salamander-2.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Salamander"
     },
@@ -2002,6 +2338,10 @@
                 "rangedDmgMult": 0.25
             }
         ],
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/f/fc/OrangeSalamander.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Salamander"
     },
@@ -2029,6 +2369,10 @@
                 "rangedDmgMult": 0.25
             }
         ],
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/53/GreenSalamander.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Salamander"
     },
@@ -2056,6 +2400,10 @@
                 "meleeDmgMult": 0.25
             }
         ],
+        "cost": {
+            "min": 2500000,
+            "max": 2500000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/e/e9/PurpleSalamander.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Salamander"
     },
@@ -2085,6 +2433,10 @@
                 "rangedDmgMult": 0.24
             }
         ],
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/5/5e/WhiteSalamander.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Salamander"
     },
@@ -2114,6 +2466,10 @@
                 "rangedDmgMult": 0.24
             }
         ],
+        "cost": {
+            "min": null,
+            "max": null
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c3/BlackSalamander.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Salamander"
     },
@@ -2143,6 +2499,10 @@
                 "rangedDmgMult": 0.23
             }
         ],
+        "cost": {
+            "min": 10000000,
+            "max": 10000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/c/c9/GoldSalamander.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Salamander"
     },
@@ -2161,6 +2521,10 @@
                 "mult": 0
             }
         ],
+        "cost": {
+            "min": 50000000,
+            "max": 50000000
+        },
         "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/2d/GRL.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Gnome_Rocket_Launcher"
     }
