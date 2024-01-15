@@ -124,12 +124,6 @@
                 "mult": 1
             },
             {
-                "name": "+ HP per shot",
-                "type": "magicDmg",
-                "base": 7,
-                "mult": 0.1
-            },
-            {
                 "name": "Echo of the Void (1st blast)",
                 "type": "magicDmg",
                 "base": 500,
@@ -147,6 +141,12 @@
                 "type": "magicDmg",
                 "base": 1100,
                 "mult": 5.25
+            },
+            {
+                "name": "+ HP per attack",
+                "type": "magicDmg",
+                "base": 7,
+                "mult": 0.1
             }
         ],
         "cost": {
