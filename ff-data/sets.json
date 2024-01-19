@@ -4,7 +4,8 @@
         "pieces": [
             "Bronze Helmet",
             "Bronze Platebody",
-            "Bronze Platelegs"
+            "Bronze Platelegs",
+            "Bronze Boots"
         ]
     },
     {
@@ -12,7 +13,8 @@
         "pieces": [
             "Iron Helmet",
             "Iron Platebody",
-            "Iron Platelegs"
+            "Iron Platelegs",
+            "Iron Boots"
         ]
     },
     {
@@ -20,7 +22,8 @@
         "pieces": [
             "Cobalt Helmet",
             "Cobalt Platebody",
-            "Cobalt Platelegs"
+            "Cobalt Platelegs",
+            "Cobalt Boots"
         ]
     },
     {
@@ -28,7 +31,8 @@
         "pieces": [
             "Titanium Helmet",
             "Titanium Platebody",
-            "Titanium Platelegs"
+            "Titanium Platelegs",
+            "Titanium Boots"
         ]
     },
     {
@@ -36,7 +40,8 @@
         "pieces": [
             "Gold Helmet",
             "Gold Platebody",
-            "Gold Platelegs"
+            "Gold Platelegs",
+            "Gold Boots"
         ]
     },
     {
@@ -44,7 +49,8 @@
         "pieces": [
             "Onyx Helmet",
             "Onyx Platebody",
-            "Onyx Platelegs"
+            "Onyx Platelegs",
+            "Onyx Boots"
         ]
     },
     {
@@ -81,11 +87,7 @@
     },
     {
         "name": "Dark Hunter Set",
-        "pieces": [
-            "Dark Hunter Hat",
-            "Dark Hunter Top",
-            "Dark Hunter Legs"
-        ]
+        "pieces": ["Dark Hunter Hat", "Dark Hunter Top", "Dark Hunter Legs"]
     },
     {
         "name": "Darkwood Warrior Set",
@@ -146,11 +148,7 @@
     },
     {
         "name": "Ivory Set",
-        "pieces": [
-            "Ivory Helmet",
-            "Ivory Chestpiece",
-            "Ivory Legs"
-        ]
+        "pieces": ["Ivory Helmet", "Ivory Chestpiece", "Ivory Legs"]
     },
     {
         "name": "Jade Assassin's Set",
@@ -170,19 +168,11 @@
     },
     {
         "name": "Mortmud Set",
-        "pieces": [
-            "Mortmud Hood",
-            "Mortmud Wraps",
-            "Mortmud Legs"
-        ]
+        "pieces": ["Mortmud Hood", "Mortmud Wraps", "Mortmud Legs"]
     },
     {
         "name": "Patched Set",
-        "pieces": [
-            "Patched Helmet",
-            "Patched Torso",
-            "Patched Legs"
-        ]
+        "pieces": ["Patched Helmet", "Patched Torso", "Patched Legs"]
     },
     {
         "name": "Razed General Set",
@@ -202,35 +192,19 @@
     },
     {
         "name": "Riveted Set",
-        "pieces": [
-            "Riveted Helmet",
-            "Riveted Torso",
-            "Riveted Shorts"
-        ]
+        "pieces": ["Riveted Helmet", "Riveted Torso", "Riveted Shorts"]
     },
     {
         "name": "Skeleton Set",
-        "pieces": [
-            "Skull",
-            "Skeleton Torso",
-            "Skeleton Legs"
-        ]
+        "pieces": ["Skull", "Skeleton Torso", "Skeleton Legs"]
     },
     {
         "name": "Spikeout Set",
-        "pieces": [
-            "Spikeout Helmet",
-            "Spikeout Chestpiece",
-            "Spikeout Legs"
-        ]
+        "pieces": ["Spikeout Helmet", "Spikeout Chestpiece", "Spikeout Legs"]
     },
     {
         "name": "Springtwig Set",
-        "pieces": [
-            "Springtwig Eye",
-            "Springtwig Torso",
-            "Springtwig Legs"
-        ]
+        "pieces": ["Springtwig Eye", "Springtwig Torso", "Springtwig Legs"]
     },
     {
         "name": "Tomb Prowler Set",
@@ -274,11 +248,7 @@
     },
     {
         "name": "Crabsuit Set",
-        "pieces": [
-            "Crabsuit Headgear",
-            "Crabsuit Top",
-            "Crabsuit Legs"
-        ]
+        "pieces": ["Crabsuit Headgear", "Crabsuit Top", "Crabsuit Legs"]
     },
     {
         "name": "Gardendweller Set",
@@ -314,11 +284,7 @@
     },
     {
         "name": "Odewig Set",
-        "pieces": [
-            "Odewig Helmet",
-            "Odewig Armor",
-            "Odewig Platelegs"
-        ]
+        "pieces": ["Odewig Helmet", "Odewig Armor", "Odewig Platelegs"]
     },
     {
         "name": "Pettyganger's Parade Set",
@@ -386,10 +352,7 @@
     },
     {
         "name": "Tower Armor Set",
-        "pieces": [
-            "Tower Armor Platebody",
-            "Tower Armor Platelegs"
-        ]
+        "pieces": ["Tower Armor Platebody", "Tower Armor Platelegs"]
     },
     {
         "name": "Wolfram Leader Set",
@@ -433,19 +396,11 @@
     },
     {
         "name": "Romo Set",
-        "pieces": [
-            "Romo Helmet",
-            "Romo Torso",
-            "Romo Robo-Legs"
-        ]
+        "pieces": ["Romo Helmet", "Romo Torso", "Romo Robo-Legs"]
     },
     {
         "name": "Wisecrack Set",
-        "pieces": [
-            "Wisecrack Skull",
-            "Wisecrack Torso",
-            "Wisecrack Leggings"
-        ]
+        "pieces": ["Wisecrack Skull", "Wisecrack Torso", "Wisecrack Leggings"]
     },
     {
         "name": "Woodwhack Legionnaire Set",
@@ -457,11 +412,7 @@
     },
     {
         "name": "Bedrock Set",
-        "pieces": [
-            "Bedrock Helmet",
-            "Bedrock Platebody",
-            "Bedrock Platelegs"
-        ]
+        "pieces": ["Bedrock Helmet", "Bedrock Platebody", "Bedrock Platelegs"]
     },
     {
         "name": "Corrupted Gold Set",
@@ -489,10 +440,7 @@
     },
     {
         "name": "Court Jester Set",
-        "pieces": [
-            "Court Jester Shirt",
-            "Court Jester Pants"
-        ]
+        "pieces": ["Court Jester Shirt", "Court Jester Pants"]
     },
     {
         "name": "Fire Spellbound Mage Set",
@@ -544,26 +492,15 @@
     },
     {
         "name": "Roadblocks Set",
-        "pieces": [
-            "Roadblocks Head",
-            "Roadblocks Torso",
-            "Roadblocks Legs"
-        ]
+        "pieces": ["Roadblocks Head", "Roadblocks Torso", "Roadblocks Legs"]
     },
     {
         "name": "U-Life Set",
-        "pieces": [
-            "U-Life Helmet",
-            "U-Life Platebody",
-            "U-Life Platelegs"
-        ]
+        "pieces": ["U-Life Helmet", "U-Life Platebody", "U-Life Platelegs"]
     },
     {
         "name": "The Drake's Set",
-        "pieces": [
-            "The Drake's Shirt",
-            "The Drake's Pants"
-        ]
+        "pieces": ["The Drake's Shirt", "The Drake's Pants"]
     },
     {
         "name": "Wired Fury Set",
@@ -639,11 +576,7 @@
     },
     {
         "name": "Temple Fool Set",
-        "pieces": [
-            "Temple Fool Head",
-            "Temple Fool Torso",
-            "Temple Fool Legs"
-        ]
+        "pieces": ["Temple Fool Head", "Temple Fool Torso", "Temple Fool Legs"]
     },
     {
         "name": "Machine Rug Set",
@@ -663,10 +596,7 @@
     },
     {
         "name": "Adventurer's Set",
-        "pieces": [
-            "Adventurer's Armor",
-            "Adventurer's Guard"
-        ]
+        "pieces": ["Adventurer's Armor", "Adventurer's Guard"]
     },
     {
         "name": "Frog Costume #1 Set",
