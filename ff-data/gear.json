@@ -1741,14 +1741,14 @@
                 "mult": 1
             },
             {
-                "special": true,
                 "name": "Drift Stance",
                 "type": "meleeDmg",
                 "base": 320,
                 "mult": 1
             },
             {
-                "name": "Fully charged Drift Stance",
+                "special": true,
+                "name": "Charged Drift Stance",
                 "type": "meleeDmg",
                 "base": 1220,
                 "mult": 2
