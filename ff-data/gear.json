@@ -29,7 +29,8 @@
                 "name": "Caster Form",
                 "type": "magicDmg",
                 "base": 350,
-                "mult": 1
+                "mult": 1,
+                "cd": 3
             }
         ],
         "cost": {
@@ -64,7 +65,8 @@
                 "name": "Brain Bash (total)",
                 "type": "magicDmg",
                 "base": 990,
-                "mult": 3
+                "mult": 3,
+                "cd": 16
             }
         ],
         "cost": {
@@ -99,7 +101,8 @@
                 "name": "Fantastic Beamstorm (total)",
                 "type": "magicDmg",
                 "base": 720,
-                "mult": 4.8
+                "mult": 4.8,
+                "cd": 24
             }
         ],
         "cost": {
@@ -140,7 +143,8 @@
                 "name": "Echo of the Void (total)",
                 "type": "magicDmg",
                 "base": 1100,
-                "mult": 5.25
+                "mult": 5.25,
+                "cd": 12
             },
             {
                 "name": "+ HP per attack",
@@ -175,7 +179,8 @@
                 "name": "Meteor Blast",
                 "type": "magicDmg",
                 "base": 400,
-                "mult": 2.5
+                "mult": 2.5,
+                "cd": 26
             }
         ],
         "cost": {
@@ -210,7 +215,8 @@
                 "name": "Eternal Form (shot + blast)",
                 "type": "magicDmg",
                 "base": 225,
-                "mult": 1.5
+                "mult": 1.5,
+                "cd": 20
             }
         ],
         "cost": {
@@ -239,7 +245,8 @@
                 "name": "Smite",
                 "type": "magicDmg",
                 "base": 700,
-                "mult": 3
+                "mult": 3,
+                "cd": 22
             }
         ],
         "cost": {
@@ -274,7 +281,8 @@
                 "name": "Charged Solar Beam",
                 "type": "magicDmg",
                 "base": 660,
-                "mult": 2.5
+                "mult": 2.5,
+                "cd": 26
             }
         ],
         "cost": {
@@ -303,7 +311,8 @@
                 "name": "Bolt of Dreams",
                 "type": "magicDmg",
                 "base": 700,
-                "mult": 3.1
+                "mult": 3.1,
+                "cd": 10
             }
         ],
         "cost": {
@@ -338,7 +347,8 @@
                 "name": "Rain of Toasters (total)",
                 "type": "magicDmg",
                 "base": 4000,
-                "mult": 12.5
+                "mult": 12.5,
+                "cd": 26
             }
         ],
         "cost": {
@@ -895,7 +905,8 @@
                 "name": "Rebound Strike",
                 "type": "meleeDmg",
                 "base": 230,
-                "mult": 1
+                "mult": 1,
+                "cd": 4
             }
         ],
         "cost": {
@@ -946,7 +957,8 @@
                 "name": "Greater Uppercut",
                 "type": "meleeDmg",
                 "base": 635,
-                "mult": 1
+                "mult": 1,
+                "cd": 8
             }
         ],
         "cost": {
@@ -975,7 +987,8 @@
                 "name": "Holy Blast",
                 "type": "magicDmg",
                 "base": 805,
-                "mult": 1
+                "mult": 1,
+                "cd": 16
             }
         ],
         "cost": {
@@ -1070,7 +1083,8 @@
                 "name": "Dark Charge",
                 "type": "meleeDmg",
                 "base": 545,
-                "mult": 1
+                "mult": 1,
+                "cd": 12
             }
         ],
         "cost": {
@@ -1111,7 +1125,8 @@
                 "name": "Critical Rush (total)",
                 "type": "meleeDmg",
                 "base": 1575,
-                "mult": 2
+                "mult": 2,
+                "cd": 10
             }
         ],
         "cost": {
@@ -1153,7 +1168,8 @@
                 "type": "magicDmg/meleeDmg",
                 "base": 1250,
                 "magicDmgMult": 1,
-                "meleeDmgMult": 1
+                "meleeDmgMult": 1,
+                "cd": 14
             }
         ],
         "cost": {
@@ -1182,7 +1198,8 @@
                 "name": "Fantastic Beam",
                 "type": "magicDmg",
                 "base": 600,
-                "mult": 1
+                "mult": 1,
+                "cd": 16
             }
         ],
         "cost": {
@@ -1217,7 +1234,8 @@
                 "name": "Glide Spin (total)",
                 "type": "meleeDmg",
                 "base": 220,
-                "mult": 2
+                "mult": 2,
+                "cd": 10
             }
         ],
         "cost": {
@@ -1289,7 +1307,8 @@
                 "type": "magicDmg/meleeDmg",
                 "base": 1855,
                 "magicDmgMult": 1.98,
-                "meleeDmgMult": 2.2
+                "meleeDmgMult": 2.2,
+                "cd": 18
             }
         ],
         "cost": {
@@ -1318,7 +1337,8 @@
                 "name": "Grand Smash",
                 "type": "meleeDmg",
                 "base": 450,
-                "mult": 1
+                "mult": 1,
+                "cd": 8
             }
         ],
         "cost": {
@@ -1375,7 +1395,8 @@
                 "name": "Threefold Advance (total)",
                 "type": "meleeDmg",
                 "base": 405,
-                "mult": 6.45
+                "mult": 6.45,
+                "cd": 8
             }
         ],
         "cost": {
@@ -1445,7 +1466,8 @@
                 "type": "magicDmg/meleeDmg",
                 "base": 3550,
                 "magicDmgMult": 2,
-                "meleeDmgMult": 1
+                "meleeDmgMult": 1,
+                "cd": 28
             }
         ],
         "cost": {
@@ -1480,7 +1502,8 @@
                 "name": "Double Spin (total)",
                 "type": "meleeDmg",
                 "base": 240,
-                "mult": 2
+                "mult": 2,
+                "cd": 8
             }
         ],
         "cost": {
@@ -1553,7 +1576,8 @@
                 "name": "Charge Slam",
                 "type": "meleeDmg",
                 "base": 660,
-                "mult": 2
+                "mult": 2,
+                "cd": 16
             }
         ],
         "cost": {
@@ -1582,7 +1606,8 @@
                 "name": "Cleave Strike",
                 "type": "meleeDmg",
                 "base": 195,
-                "mult": 1
+                "mult": 1,
+                "cd": 4
             }
         ],
         "cost": {
@@ -1611,7 +1636,8 @@
                 "name": "Jump Strike",
                 "type": "meleeDmg",
                 "base": 375,
-                "mult": 1
+                "mult": 1,
+                "cd": 8
             }
         ],
         "cost": {
@@ -1646,7 +1672,8 @@
                 "name": "Blade of Rage",
                 "type": "meleeDmg",
                 "base": 705,
-                "mult": 1
+                "mult": 1,
+                "cd": 28
             }
         ],
         "cost": {
@@ -1675,7 +1702,8 @@
                 "name": "Echo Punch",
                 "type": "meleeDmg",
                 "base": 600,
-                "mult": 1
+                "mult": 1,
+                "cd": 10
             }
         ],
         "cost": {
@@ -1710,14 +1738,15 @@
                 "name": "Siphon Spin (total)",
                 "type": "meleeDmg",
                 "base": 420,
-                "mult": 1
+                "mult": 1,
+                "cd": 6
             }
         ],
         "cost": {
             "min": 2200000,
             "max": 2200000
         },
-        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/2/23/Rusted_Coin_Scythe.png",
+        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/1/1d/Rusted_Coin_Scythe_Large.png",
         "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Rusted_Coin_Scythe"
     },
     {
@@ -1751,7 +1780,8 @@
                 "name": "Charged Drift Stance",
                 "type": "meleeDmg",
                 "base": 1220,
-                "mult": 2
+                "mult": 2,
+                "cd": 2
             }
         ],
         "cost": {
@@ -1780,7 +1810,8 @@
                 "name": "Ultra Charge",
                 "type": "meleeDmg",
                 "base": 450,
-                "mult": 1
+                "mult": 1,
+                "cd": 14
             }
         ],
         "cost": {
@@ -1809,7 +1840,8 @@
                 "name": "Magic Smash",
                 "type": "magicDmg",
                 "base": 415,
-                "mult": 1.5
+                "mult": 1.5,
+                "cd": 8
             }
         ],
         "cost": {
@@ -1838,7 +1870,8 @@
                 "name": "Blessed Dive",
                 "type": "meleeDmg",
                 "base": 700,
-                "mult": 1
+                "mult": 1,
+                "cd": 8
             }
         ],
         "cost": {
@@ -1866,7 +1899,8 @@
                 "special": true,
                 "name": "Void Needle",
                 "type": "meleeDmg",
-                "base": 935
+                "base": 935,
+                "cd": 3
             }
         ],
         "cost": {
@@ -1897,7 +1931,6 @@
                 "mult": 1
             },
             {
-                "special": true,
                 "name": "Royal Crossbow Bolt",
                 "type": "rangedDmg",
                 "base": 90,
@@ -1930,7 +1963,8 @@
                 "name": "Dragon's Charge",
                 "type": "rangedDmg",
                 "base": 900,
-                "mult": 1
+                "mult": 1,
+                "cd": 12
             }
         ],
         "cost": {
@@ -1981,7 +2015,8 @@
                 "name": "Spinboost",
                 "type": "rangedDmg",
                 "base": 660,
-                "mult": 1
+                "mult": 1,
+                "cd": 6
             }
         ],
         "cost": {
@@ -2032,7 +2067,8 @@
                 "name": "Gatling Mode",
                 "type": "rangedDmg",
                 "base": 210,
-                "mult": 1
+                "mult": 1,
+                "cd": 3
             }
         ],
         "cost": {
@@ -2149,7 +2185,8 @@
                 "name": "Divine Shot",
                 "type": "rangedDmg",
                 "base": 675,
-                "mult": 1
+                "mult": 1,
+                "cd": 14
             }
         ],
         "cost": {
@@ -2180,7 +2217,8 @@
                 "type": "magicDmg/rangedDmg",
                 "base": 375,
                 "magicDmgMult": 0.5,
-                "rangedDmgMult": 0.5
+                "rangedDmgMult": 0.5,
+                "cd": 3
             }
         ],
         "cost": {
@@ -2211,7 +2249,8 @@
                 "type": "magicDmg/meleeDmg",
                 "base": 675,
                 "magicDmgMult": 0.5,
-                "meleeDmgMult": 0.5
+                "meleeDmgMult": 0.5,
+                "cd": 18
             }
         ],
         "cost": {
@@ -2240,7 +2279,8 @@
             {
                 "special": true,
                 "name": "+ HP per Blood Sap",
-                "base": 87.5
+                "base": 87.5,
+                "cd": 16
             }
         ],
         "cost": {
@@ -2271,7 +2311,8 @@
                 "type": "magicDmg/meleeDmg",
                 "base": 600,
                 "magicDmgMult": 0.5,
-                "meleeDmgMult": 0.5
+                "meleeDmgMult": 0.5,
+                "cd": 18
             }
         ],
         "cost": {
@@ -2304,7 +2345,8 @@
                 "base": 250,
                 "magicDmgMult": 0.2,
                 "meleeDmgMult": 0.2,
-                "rangedDmgMult": 0.2
+                "rangedDmgMult": 0.2,
+                "cd": 6
             }
         ],
         "cost": {
@@ -2335,7 +2377,8 @@
                 "type": "meleeDmg/rangedDmg",
                 "base": 250,
                 "meleeDmgMult": 0.25,
-                "rangedDmgMult": 0.25
+                "rangedDmgMult": 0.25,
+                "cd": 6
             }
         ],
         "cost": {
@@ -2366,7 +2409,8 @@
                 "type": "magicDmg/rangedDmg",
                 "base": 250,
                 "magicDmgMult": 0.25,
-                "rangedDmgMult": 0.25
+                "rangedDmgMult": 0.25,
+                "cd": 6
             }
         ],
         "cost": {
@@ -2397,7 +2441,8 @@
                 "type": "magicDmg/meleeDmg",
                 "base": 250,
                 "magicDmgMult": 0.25,
-                "meleeDmgMult": 0.25
+                "meleeDmgMult": 0.25,
+                "cd": 6
             }
         ],
         "cost": {
@@ -2430,7 +2475,8 @@
                 "base": 600,
                 "magicDmgMult": 0.24,
                 "meleeDmgMult": 0.24,
-                "rangedDmgMult": 0.24
+                "rangedDmgMult": 0.24,
+                "cd": 6
             }
         ],
         "cost": {
@@ -2463,7 +2509,8 @@
                 "base": 500,
                 "magicDmgMult": 0.24,
                 "meleeDmgMult": 0.24,
-                "rangedDmgMult": 0.24
+                "rangedDmgMult": 0.24,
+                "cd": 6
             }
         ],
         "cost": {
@@ -2496,7 +2543,8 @@
                 "base": 600,
                 "magicDmgMult": 0.23,
                 "meleeDmgMult": 0.23,
-                "rangedDmgMult": 0.23
+                "rangedDmgMult": 0.23,
+                "cd": 6
             }
         ],
         "cost": {
