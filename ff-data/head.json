@@ -2311,29 +2311,6 @@
     },
     {
         "noStats": true,
-        "name": "Mining Helmet",
-        "stats": {
-            "armor": 0,
-            "magicDmg": 0,
-            "meleeDmg": 0,
-            "rangedDmg": 0,
-            "hpRegen": 0,
-            "endurance": 0,
-            "sightRange": 0,
-            "walkSpeed": 0,
-            "jumpPower": 0,
-            "ammoReturn": 0,
-            "height": 0
-        },
-        "cost": {
-            "min": 5000,
-            "max": 5000
-        },
-        "image": "https://static.wikia.nocookie.net/fantastic-frontier-roblox/images/9/94/Mining_Helmet_Large.png",
-        "link": "https://fantastic-frontier-roblox.fandom.com/wiki/Mining_Helmet"
-    },
-    {
-        "noStats": true,
         "name": "Minion",
         "stats": {
             "armor": 0,
