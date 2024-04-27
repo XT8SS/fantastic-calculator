@@ -983,11 +983,24 @@
                 "mult": 1
             },
             {
-                "special": true,
-                "name": "Holy Blast",
+                "name": "Holy Blast (swing)",
+                "type": "meleeDmg",
+                "base": 500,
+                "mult": 1
+            },
+            {
+                "name": "Holy Blast (blast)",
                 "type": "magicDmg",
                 "base": 805,
-                "mult": 1,
+                "mult": 1
+            },
+            {
+                "special": true,
+                "name": "Holy Blast (total)",
+                "type": "magicDmg/meleeDmg",
+                "base": 1305,
+                "magicDmgMult": 1,
+                "meleeDmgMult": 1,
                 "cd": 16
             }
         ],
