@@ -1400,15 +1400,15 @@
             {
                 "name": "Threefold Advance (slash)",
                 "type": "meleeDmg",
-                "base": 135,
-                "mult": 2.15
+                "base": 130,
+                "mult": 0.725
             },
             {
                 "special": true,
                 "name": "Threefold Advance (total)",
                 "type": "meleeDmg",
-                "base": 405,
-                "mult": 6.45,
+                "base": 390,
+                "mult": 2.175,
                 "cd": 8
             }
         ],
